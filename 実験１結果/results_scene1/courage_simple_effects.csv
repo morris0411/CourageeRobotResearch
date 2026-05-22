@@ -1,0 +1,5 @@
+﻿effect_type,focus,focus_jp,A,B,A_jp,B_jp,W,p
+presentation_fixed,Sequential,逐次提示,NoConflict,Conflict,葛藤なし,葛藤あり,2293.0,0.023378733237409424
+presentation_fixed,Simultaneous,同時提示,NoConflict,Conflict,葛藤なし,葛藤あり,1674.5,0.00039163264027700106
+conflict_fixed,NoConflict,葛藤なし,Simultaneous,Sequential,同時提示,逐次提示,2165.5,0.4470491677026317
+conflict_fixed,Conflict,葛藤あり,Simultaneous,Sequential,同時提示,逐次提示,1680.5,0.012165588697569635

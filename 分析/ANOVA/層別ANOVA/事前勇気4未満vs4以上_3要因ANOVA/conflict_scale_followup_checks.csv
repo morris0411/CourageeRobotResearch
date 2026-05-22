@@ -1,0 +1,3 @@
+﻿target,effect,test_used,stat_label,stat_value,p_value,normality_p,n,mean_a,mean_b,level_a,level_b
+葛藤尺度（post）,conflict???,wilcoxon,W,1128.0,2.529558431311621e-10,2.172903175828079e-08,126,5.150793650793651,4.209325396825397,葛藤あり,葛藤なし
+葛藤尺度（post）,action???,wilcoxon,W,2030.0,0.003389224989679189,8.44317939015949e-05,126,4.5773809523809526,4.782738095238095,行動あり,行動なし

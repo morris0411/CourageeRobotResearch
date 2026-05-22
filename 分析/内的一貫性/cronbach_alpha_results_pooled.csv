@@ -1,0 +1,7 @@
+﻿section,timing,video_no,scale,n_items,n_valid,cronbach_alpha,pooled_videos,item_columns,item_numbers,reverse_scored_columns,reverse_scored_item_numbers,reverse_rule
+事前調査,事前,,CZO尺度,10,126,0.801,,"J, K, L, M, N, O, P, Q, R, S","1, 2, 3, 4, 5, 6, 7, 8, 9, 10","L, N, P, Q, S","3, 5, 7, 8, 10","1↔5, 2↔4, 3→3"
+事前調査,事前,,勇気尺度,6,126,0.908,,"C, D, E, F, G, H","1, 2, 3, 4, 5, 6",,,
+事後全条件プール,事後,all,CZO尺度,10,504,0.844,4,,"1, 2, 3, 4, 5, 6, 7, 8, 9, 10",,"3, 5, 7, 8, 10","1↔5, 2↔4, 3→3"
+事後全条件プール,事後,all,主観の勇気評定,3,504,0.938,4,,"1, 2, 3",,,
+事後全条件プール,事後,all,勇気尺度,6,504,0.947,4,,"1, 2, 3, 4, 5, 6",,,
+事後全条件プール,事後,all,葛藤尺度,4,504,0.895,4,,"1, 2, 3, 4",,,

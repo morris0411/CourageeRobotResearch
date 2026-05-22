@@ -1,0 +1,5 @@
+﻿Conflict,Conflict_jp,Presentation,Presentation_jp,mean,W,p
+Conflict,葛藤あり,Sequential,逐次提示,4.796437659033078,969.0,1.4108780604334993e-11
+Conflict,葛藤あり,Simultaneous,同時提示,4.938931297709924,760.0,5.423891728631232e-14
+NoConflict,葛藤なし,Sequential,逐次提示,4.511450381679389,1540.5,3.248540438296576e-07
+NoConflict,葛藤なし,Simultaneous,同時提示,4.55089058524173,1666.0,1.147925402165915e-06
