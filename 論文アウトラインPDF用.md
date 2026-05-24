@@ -933,7 +933,8 @@ _paginate: false
 </figure>
 </div>
 
-> 葛藤表現は葛藤として知覚され、同時表示は葛藤をより明瞭に伝える表示形式であった。
+> 仮説1：葛藤あり条件は、葛藤なし条件よりも葛藤評定が高い。  
+> ⇒ 支持された。加えて、同時表示は葛藤をより明瞭に伝える表示形式であった。
 
 ---
 
@@ -956,7 +957,8 @@ _paginate: false
 </figure>
 </div>
 
-> 葛藤を示したロボットは、より勇気ある行動をとったように知覚された。
+> 仮説2：葛藤あり条件は、葛藤なし条件よりもロボットの勇気評定が高い。  
+> ⇒ 支持された。一方、探索的検討では、表示形式による勇気評定の差はみられなかった。
 
 ---
 
@@ -965,20 +967,7 @@ _paginate: false
 ## 研究1：結論
 
 <div class="study1-summary">
-研究2で用いる刺激の妥当性を確認し、葛藤をより明瞭に伝える表示形式として同時表示を選定した。
-</div>
-
-<div class="hypothesis-results">
-<div class="hypothesis-row">
-<strong>仮説1</strong>葛藤あり条件は、葛藤なし条件よりも葛藤評定が高い。　<span class="judgment">⇒ 支持</span>
-</div>
-<div class="hypothesis-row">
-<strong>仮説2</strong>葛藤あり条件は、葛藤なし条件よりもロボットの勇気評定が高い。　<span class="judgment">⇒ 支持</span>
-</div>
-<div class="hypothesis-row">
-<strong>探索的検討</strong>表示形式によってロボットの勇気評定が異なるか。
-  <span class="judgment">⇒ 有意差なし</span>
-</div>
+研究1では、研究2で用いる葛藤表現が刺激として成立することを確認した。加えて、葛藤をより明瞭に伝える表示形式として同時表示を選定した。
 </div>
 
 <div class="accent">
@@ -1085,6 +1074,7 @@ _paginate: false
 <ul>
 <li>葛藤表現が観察者自身の勇気に及ぼす影響は、<strong>事前勇気傾向によって異なった</strong>。</li>
 <li><strong>行動の有無</strong>は、観察者自身の勇気に有意な効果を示さなかった。</li>
+<li><strong>仮説</strong>：葛藤あり・行動あり条件が最も勇気を高める。<br>⇒ 支持されなかった。</li>
 </ul>
 </div>
 
@@ -1100,10 +1090,6 @@ _paginate: false
 <li><strong>示唆</strong>：同じ葛藤表現でも、観察者の事前勇気傾向によって逆方向に働きうる。</li>
 </ul>
 
-<div class="note-box mechanism-note">
-自己効力感、共感、自己類似性は直接測定していないため、メカニズムは今後の課題である。
-</div>
-
 ---
 
 <!-- _class: study1-conclusion -->
@@ -1112,15 +1098,6 @@ _paginate: false
 
 <div class="study1-summary">
 葛藤を示して行動するロボットの観察が観察者自身の勇気に及ぼす影響は、事前勇気傾向によって異なり、一様に高めるものではなかった。
-</div>
-
-<div class="hypothesis-results">
-<div class="hypothesis-row">
-<strong>仮説</strong>葛藤あり・行動あり条件は、他の条件より観察者自身の勇気を高める。　<span class="judgment">⇒ 支持されず</span>
-</div>
-<div class="hypothesis-row">
-<strong>解釈</strong>葛藤表現は、低群には行動を後押しするモデルとして、高群にはためらいとして受け取られた可能性がある。
-</div>
 </div>
 
 <div class="accent">
