@@ -557,23 +557,22 @@ style: |
   }
   .study2-takeaways {
     margin-top: 0.44rem;
-    padding-top: 0.34rem;
-    border-top: 1.5px solid #d8c8ad;
-  }
-  .study2-takeaways h3 {
-    color: #315c7c;
-    font-size: 0.72em;
-    margin: 0 0 0.12rem 0;
+    padding: 0.42rem 0.7rem;
+    border-left: 7px solid #d28a3c;
+    background: rgba(210, 138, 60, 0.08);
   }
   .study2-takeaways ul {
     margin: 0;
-    padding-left: 1.15rem;
+    padding-left: 1.2rem;
   }
   .study2-takeaways li {
     color: #17324d;
-    font-size: 0.61em;
-    line-height: 1.37;
-    margin: 0.08rem 0;
+    font-size: 0.7em;
+    line-height: 1.45;
+    margin: 0.12rem 0;
+  }
+  .study2-takeaways strong {
+    color: #9a4d18;
   }
   section.study2-interpretation {
     padding: 2.2rem 3rem;
@@ -1083,11 +1082,9 @@ _paginate: false
 </div>
 
 <div class="study2-takeaways">
-<h3>結果からわかること</h3>
 <ul>
-<li>葛藤表現が観察者自身の勇気に及ぼす影響は、事前勇気傾向によって異なった。</li>
-<li>行動の有無は、観察者自身の勇気に有意な効果を示さなかった。</li>
-<li>葛藤評定は葛藤あり条件の方が高く、葛藤操作は成立していた。<strong>F(1, 124) = 52.939, p &lt; .001</strong></li>
+<li>葛藤表現が観察者自身の勇気に及ぼす影響は、<strong>事前勇気傾向によって異なった</strong>。</li>
+<li><strong>行動の有無</strong>は、観察者自身の勇気に有意な効果を示さなかった。</li>
 </ul>
 </div>
 
