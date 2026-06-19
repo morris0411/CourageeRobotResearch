@@ -1,0 +1,857 @@
+PLOS ONE
+
+                                                     RESEARCH ARTICLE
+
+                                                     Is two cuter than one? number and
+                                                     relationship effects on the feeling of kawaii
+                                                     toward social robots
+                                                     Masahiro Shiomi ID1☯*, Rina Hayashi1,2☯, Hiroshi Nittono ID1,3☯
+
+                                                     1 Interaction Science Laboratory, Advanced Telecommunications Research Institute International, Kyoto,
+                                                     Japan, 2 Graduate School of Engineering, Osaka University, Suita, Japan, 3 Graduate School of Human
+                                                     Science, Osaka University, Suita, Japan
+
+a1111111111                                          ☯ These authors contributed equally to this work.
+a1111111111                                          * m-shiomi@atr.jp
+a1111111111
+a1111111111
+a1111111111
+                                                     Abstract
+                                                     Kawaii, which is a Japanese word that means cute, lovely, and adorable, is an essential fac-
+                                                     tor in promoting positive emotions in people. The characteristics of a target’s appearance
+   OPEN ACCESS                                       that induce such feelings of kawaii have been thoroughly investigated around the notion of
+Citation: Shiomi M, Hayashi R, Nittono H (2023) Is   Konrad Lorenz’s famous baby schema. Such knowledge has been exploited to design the
+two cuter than one? number and relationship          appearance of commercial products to increase their social acceptance and commercial
+effects on the feeling of kawaii toward social       appeal. However, the effects of the number of targets and showing their mutual relationships
+robots. PLoS ONE 18(10): e0290433. https://doi.
+                                                     (like friendship) have not been investigated in the context of kawaii. Therefore, in this study,
+org/10.1371/journal.pone.0290433
+                                                     we conducted three web-based experiments and focused on how such factors contribute to
+Editor: Wojciech Trzebiński, SGH Warsaw School
+                                                     feelings of kawaii toward social robots. In Experiment 1, the feelings of kawaii toward static
+of Economics: Szkola Glowna Handlowa w
+Warszawie, POLAND                                    images of targets were compared when they appeared alone or with another target: persons
+                                                     (twin boys/girls), non-human objects (cherries), and social robots. The results showed that
+Received: February 14, 2023
+                                                     the feeling of kawaii was stronger for two targets that displayed a mutual relationship (e.g.,
+Accepted: August 9, 2023
+                                                     looking at each other and/or making physical contact) than for one target alone and for two-
+Published: October 18, 2023                          independent targets. In Experiment 2, these findings were replicated using video clips of
+Copyright: © 2023 Shiomi et al. This is an open      robots. Two-related targets were rated as more kawaii than two-independent targets or a
+access article distributed under the terms of the    single target. These two experiments consistently show the advantage of multiple robots
+Creative Commons Attribution License, which
+                                                     that display their mutual relationship for enhancing the viewer’s feeling of kawaii. Experiment
+permits unrestricted use, distribution, and
+reproduction in any medium, provided the original    3 examined the effect of the number of robots (from one to ten) and found that two robots
+author and source are credited.                      induced the strongest feeling of kawaii. These results indicate that not only the physical
+Data Availability Statement: All relevant data are   characteristics of a target itself but also the number of targets and their perceived relation-
+within the paper and its Supporting Information      ships affect feelings of kawaii.
+files.
+
+Funding: This work was partially supported by JST
+CREST (Core Research for Evolutional Science and
+Technology) Grant, Number JPMJCR18A1, Japan,
+and JSPS (Japan Society for the Promotion of         Introduction
+Science) KAKENHI Grant Numbers JP21H04897.
+They did not have any additional role in the study
+                                                     Social robots that interact with people in daily environments have become popular worldwide,
+design, data collection and analysis, decision to    such as Paro [1], AIBO [2], and LOVOT [3]. A common design policy of these robots is the
+publish, or preparation of the manuscript.           Japanese word kawaii, which has become a very popular word [4,5]. This adjective, whose
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0290433 October 18, 2023                                                                                 1 / 18
+PLOS ONE                                                   Is two cuter than one? Number and relationship effects on the feeling of kawaii toward social robots
+
+
+
+Competing interests: The authors have declared   English meaning denotes cute, lovely, or adorable, also expresses one’s affective feeling
+that no competing interests exist.               induced by the perception of objects imbued with such characteristics [5,6]. The feeling of
+                                                 kawaii is related not only to positive emotions but also to such behavioral changes as smiling
+                                                 and caretaking [5,7–10]. One elicitor of the feeling of kawaii is ethnologist Konrad Lorenz’s
+                                                 baby schema, which has been known to induce perceptions of cuteness [11,12]. The baby
+                                                 schema is a set of facial and bodily features typically possessed by young animals and babies,
+                                                 including a relatively large head and big eyes. Researchers employed a baby schema as a design
+                                                 policy to investigate its effects on such machines as cars and robots [13–16].
+                                                     Are only appearances essential to improve feelings of kawaii? From a commercial aspect,
+                                                 the effort to change the appearance of mass-produced consumer products, including social
+                                                 robots, seems to eventually reach a saturation point. If different factors other than appearances
+                                                 can increase feelings of kawaii, such approaches might be worth exploring. Past studies have
+                                                 suggested two approaches for this purpose: designing specific patterns of behavior and increas-
+                                                 ing the number of targets. For the former, a few studies used robots and investigated what
+                                                 kinds of behaviors imparted kawaii feelings to people, e.g., a mobile robot’s locomotion behav-
+                                                 ior design [17] and a touch behavior design of both a human and a robot [18].
+                                                     In this study, we focused on the latter approach, increasing the number of targets, because
+                                                 several studies showed the effectiveness of multiple robots that allocated rewards for improved
+                                                 performances [19,20] as well as in information-providing tasks [21–23] compared to a single
+                                                 robot. These studies concluded that participants preferred multiple robots over a single robot,
+                                                 even though the amount of information provided in these tasks was identical between multiple
+                                                 and single robots. Therefore, we pondered whether the number of such effects might occur in
+                                                 the context of kawaii feelings.
+                                                     In considering the effect of the target number on feelings of kawaii, we must focus on two
+                                                 perspectives: the relationships between them and the total number. For the former, we focused
+                                                 on a sense of “communal sharing,” defined as a mental representation of a social relation, such
+                                                 as friendship [24]. A past study reported that affiliative contact between animals increases a
+                                                 sense of communal sharing, and high communal sharing videos are judged as cuter than low
+                                                 communal sharing videos [25]. A baby schema can effectively enhance the perceived kawaii
+                                                 feelings of the robots; similar to such a concept, we wondered whether showing a social rela-
+                                                 tion between robots might raise the viewer’s feeling of kawaii toward them, including animals’
+                                                 social relations.
+                                                     Concerning the total number of targets, past studies reported that the number of robots did
+                                                 not linearly increase their social impact in the context of peer pressure [26]. Although this past
+                                                 work focused on peer pressure, which is a different kind of social influence by robots from our
+                                                 research topic, perhaps feelings of kawaii might also not increase linearly based on the number
+                                                 of robots. Although other past studies suggested the potential of the number of targets for
+                                                 enhancing feelings of kawaii [24,25], the total number and their mutual relationship effects
+                                                 have been inadequately investigated. Therefore, in this study, we investigate the relationships
+                                                 among the total number of targets, their mutual relationship, and perceptions of kawaii.
+
+
+                                                 Related work and research questions
+                                                 Kawaii feelings in human-robot interaction
+                                                 To achieve socially acceptable robots in daily environments, robotics researchers have investi-
+                                                 gated what kinds of factors are essential in various fields [27,28] and reported the importance
+                                                 of trust [29], useful functionality for assisting seniors [30] and childcare [31], and the effects of
+                                                 cuteness [32,33]. In the context of the latter and the kawaii feeling of robots, researchers
+                                                 focused on applying to the appearance design of robots [34–36] the baby schema concept,
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0290433 October 18, 2023                                                                                 2 / 18
+PLOS ONE                                             Is two cuter than one? Number and relationship effects on the feeling of kawaii toward social robots
+
+
+
+                                           which effectively raised the perceived feelings of kawaii. In fact, recent commercial products in
+                                           social robot categories are designed to have cute appearances [1–3].
+                                              From another perspective, researchers investigated what behaviors can increase feelings of
+                                           kawaii. For example, researchers reported the effectiveness of increasing kawaii feelings by a
+                                           locomotion behavior design for a mobile robot [17] and a touch behavior for an information-
+                                           providing robot [18]. These studies showed the usefulness of behavior design for improving
+                                           feelings of kawaii.
+                                              Unfortunately, although these studies described the importance of kawaii feelings and
+                                           approaches for raising such feelings, they only concentrated on interaction situations with a
+                                           single robot. Even though recent social robot studies unveiled the usefulness of using multiple
+                                           robots from various perspectives (see next subsection), the effects of their numbers and rela-
+                                           tionships toward kawaii feelings remain relatively unknown.
+
+
+                                           Number effects in human-robot interaction
+                                           Using multiple robots simultaneously for a single application, such as conversational-based
+                                           information-providing tasks, is one recent trend toward increasing their performances. For
+                                           example, researchers showed that using multiple robots in conversation enables them to com-
+                                           pensate for speech recognition failures by controlling conversational flow between robots,
+                                           regardless of user answers [22,37]. Other studies described increases in the social impact of
+                                           using multiple robots compared to a single robot, e.g., greater social reward effects [38], higher
+                                           children’s motivations [23], and behavior changes due to peer pressures from multiple robots
+                                           [26,39].
+                                              Although these studies investigated the effects of the number of robots on their social influ-
+                                           ences, they focused less on the relationships between the number of robots and feelings of
+                                           kawaii. Therefore, it is unknown whether people perceived more kawaii feelings toward multi-
+                                           ple robots than a single robot. However, the relationship between the number of robots and
+                                           social influences might not be linear because another study concluded that the peer pressure
+                                           effects from robots are not simply increased by adding more robots [26].
+                                              We also need to focus on the relationship effects among robots to understand the effects of
+                                           multiple robots. Another past study reported the importance of a sense of communal sharing,
+                                           induced by observing positive social relationships of humans or animals [25]. Another study
+                                           argued that multiple robots literally touching each other, i.e., showing more affiliative relation-
+                                           ships, can effectively provide information to people [40], suggesting the usefulness of showing
+                                           positive relationships even among robots.
+
+
+                                           Research questions and overview of the experiments
+                                           As summarized above, the number of robots and displays of their mutual relationship (e.g.,
+                                           friendliness among robots) might enhance feelings of kawaii. However, such numbers and
+                                           relationship effects have not been investigated in the context of kawaii. Based on these consid-
+                                           erations, we address the following question:
+                                               Research Question (RQ1). Does observing two targets that display a mutual relationship
+                                           enhance feelings of kawaii toward them?
+                                               Related to RQ1, a past study reported that people describe their feelings as being cuter
+                                           when they observe high communal sharing videos (e.g., young animals that show affiliative
+                                           contacts) rather than low communal sharing videos [25]. This phenomenon suggests that the
+                                           number of items and their relationships influences feelings of kawaii. Perceptions of a social
+                                           relation may not be limited to humans and animals because people easily anthropomorphize
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0290433 October 18, 2023                                                                           3 / 18
+PLOS ONE                                             Is two cuter than one? Number and relationship effects on the feeling of kawaii toward social robots
+
+
+
+                                           objects [41,42]. Therefore, we hypothesized that displaying a mutual relationship will increase
+                                           the perceived feeling of kawaii, regardless of the targets’ characteristics.
+                                               Hypothesis 1 (H1). People will experience greater feelings of kawaii toward targets that
+                                           display their mutual relationship than targets that do not display such a relationship or a single
+                                           target, regardless of the kinds of targets.
+                                               We conducted two experiments to answer RQ1 and H1. We first conducted a feasibility
+                                           study that employed static images of different targets: human beings (twin boys/girls), non-
+                                           human objects (cherries), and social robots. We employed these different targets to investigate
+                                           the number and the mutual relationship effects that occur regardless of the target’s characteris-
+                                           tics. Next, we conducted a follow-up experiment to investigate whether the same effects are
+                                           observed for videos of two robots. Here we only used robots as video stimuli because our pri-
+                                           mary interest was in the behavior design of social robots.
+                                               If the results of these studies reveal the effectiveness of the number of robots and display
+                                           their mutual relationship, a new research question emerges: what is the optimal number of
+                                           robots that induces the strongest feeling of kawaii? We note that this additional research ques-
+                                           tion is influenced by the answer to this research question, which remains unresolved. More-
+                                           over, as described above, few studies have examined the effect of the number of robots,
+                                           complicating the creation of adequate hypotheses or predictions regarding their effective num-
+                                           ber. Therefore, in this study, we set the following exploratory research question.
+                                               Exploratory Research Question (RQ2). How many targets induce the strongest feeling of
+                                           kawaii?
+                                               To answer it, we conducted a third experiment with multiple robots to investigate the num-
+                                           ber of effects on feelings of kawaii.
+
+
+                                           Experiment 1
+                                           Materials and methods
+                                           All the procedures were approved by the Advanced Telecommunication Research Review
+                                           Boards (21-501-3).
+                                              Visual stimuli and conditions. We conducted a web survey with photos of four targets:
+                                           twin boys, twin girls, cherries, and robots. Thus, we used four levels in the model factor (boy,
+                                           girl, cherry, and robot). We used royalty-free materials from https://www.photo-ac.com/ for
+                                           the twin boys (model release obtained) and cherries and from https://www.pexels.com/ for the
+                                           twin girls (model release obtained). We used a commercial robot, Sota (VSTONE, Japan), for
+                                           the robot photos. It has eight degrees of freedom (DOFs): three for its head, two for each arm,
+                                           and one for its lower body. Its height is 28 cm. Sota has a microphone, a camera, and a voice
+                                           synthesis function to autonomously interact with people.
+                                              We used three levels in the relationship factor: one target (alone condition), two targets that
+                                           did not display any mutual relationship (two-independent condition), and two targets that did
+                                           display their mutual relationship by looking at and/or touching each other (two-related condi-
+                                           tion). Three photos for each target are shown in Fig 1. For the two-related conditions, the two
+                                           targets looked at each other (twins and robots) and/or made physical contact (cherries and
+                                           robots) to display their mutual relationship. In total. We prepared 4 x 3 pictures for four
+                                           model conditions (boy, girl, cherry, and robot) and three relationship conditions (alone, two-
+                                           independent, and two-related).
+                                              Measurement. We used a single questionnaire item to investigate the strength of the feel-
+                                           ings of kawaii. This question has a strong positive correlation with degrees of wanting-to-
+                                           approach [9,18], pleasure [9], and viewing durations in a free-viewing task [9], at least for Japa-
+                                           nese participants whom we targeted in the present study. The item (“the degree of the feeling
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0290433 October 18, 2023                                                                           4 / 18
+PLOS ONE                                                     Is two cuter than one? Number and relationship effects on the feeling of kawaii toward social robots
+
+
+
+
+         Fig 1. Photo images in Experiment 1. The images of boys, girls, and cherries are replaced with illustrations. The URLs for the original photo images are
+         available in the appendix.
+         https://doi.org/10.1371/journal.pone.0290433.g001
+
+                                                 of kawaii”) was assessed on a 0-to-10 response format, where 0 meant “not kawaii at all” and
+                                                 10 meant “extremely kawaii.” We employed an 11-point response format because a previous
+                                                 paper argued that this style more closely approximates interval data [43].
+                                                     Procedure. First, the participants read explanations of the experiment and how to evaluate
+                                                 each photo. Next they observed all of the photos of the targets with the alone, two-independent,
+                                                 or two-related conditions and completed questionnaires for each photo. We employed a
+                                                 within-participant design where the participants observed 4 x 3 (12) pictures and evaluated
+                                                 them. The order of the photos and the types of targets were counterbalanced. Finally, they
+                                                 answered dummy questions to verify the quality of their answers because past research
+                                                 reported the need for such screening of participants in web surveys [44,45]. To detect lazy and
+                                                 dishonest participants, we prepared three dummy items using an example instruction manipu-
+                                                 lation check from previous work [45]. The text’s conclusion in the instructions explicitly asked
+                                                 participants to skip the answers on that page. We excluded participants who answered them.
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0290433 October 18, 2023                                                                                            5 / 18
+PLOS ONE                                               Is two cuter than one? Number and relationship effects on the feeling of kawaii toward social robots
+
+
+
+
+                                           Fig 2. The feelings of kawaii measurements of Experiment 1. Means and standard errors (S.E.) of questionnaire
+                                           rating scores about feelings of kawaii are shown (1: alone condition, 2I; two-independent condition, 2R: two-related
+                                           condition).
+                                           https://doi.org/10.1371/journal.pone.0290433.g002
+
+                                              Participants. Our experiment was conducted using participant pools of a Japanese survey
+                                           company. A total of 201 people joined it: 99 females, 101 males, and 1 who declined to specify
+                                           gender. Their average age was 41.74 years old (standard deviation (S.D.) was 9.67, and their
+                                           age range was from 20s to 60s). The screening process, i.e., dummy questions as described
+                                           above, winnowed that number to 162 valid participants: 77 women, 84 men, and 1 who
+                                           declined to specify gender. Their average age was 41.80 years old (S.D. was 9.71). Participants
+                                           gave written consent through an online consent form in the beginning, and they could
+                                           withdraw from the study at any time.
+
+                                           Results
+                                           Fig 2 and Table 1 show the mean and standard error (S.E.) of the rating scores for the photos.
+                                           Although the Kolmogorov-Smirnov test showed that the feelings of kawaii measurements were not
+                                           normally distributed, skewness and kurtosis values between -2 and +2 are considered acceptable to
+                                           prove normal univariate distribution [46,47], and these values are within the ranges in our results.
+                                           Therefore, we conducted a two-factors (relationship and model) repeated measures ANOVA for
+                                           the degree of kawaii and found significant differences in the relationship factor (F(2,966) = 65.983,
+                                           p < 0.001, partial η2 = 0.291), in the model factor (F(3,966) = 33.428, p < 0.001, partial η2 = 0.172),
+                                           and in the interaction effects (F(6,966) = 5.856, p < 0.001, partial η2 = 0.035).
+
+                                           Table 1. The mean and S.E. of questionnaire rating scores about feelings of kawaii of Experiment I.
+                                                                                    Alone                   Two-independent                  Two-related
+                                                    Boy/boys                     6.858 (0.150)                7.210 (0.149)                  7.981 (0.132)
+                                                    Girl/girls                   5.920 (0.150)                6.025 (0.149)                  6.636 (0.153)
+                                                 Cherry/cherries                 5.815 (0.179)                5.778 (0.170)                  6.302 (0.174)
+                                                  Robot/robots                   6.580 (0.165)                6.537 (0.176)                  6.994 (0.150)
+                                           https://doi.org/10.1371/journal.pone.0290433.t001
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0290433 October 18, 2023                                                                                     6 / 18
+PLOS ONE                                             Is two cuter than one? Number and relationship effects on the feeling of kawaii toward social robots
+
+
+
+                                              Multiple comparisons with the Bonferroni method showed significant differences in the
+                                           boy/boys: alone < two-related (p < 0.001), two-independent < two-related (p < 0.001),
+                                           alone < two-independent (p = 0.001), girl/girls: alone < two-related (p < 0.001), two-
+                                           independent < two-related (p < 0.001), Cherry/cherries: alone < two-related (p < 0.001), two-
+                                           independent < two-related (p < 0.001), and robot/robots: alone < two-related (p < 0.001), two-
+                                           independent < two-related (p < 0.001).
+                                              The experiment results showed that participants felt a greater sense of kawaii toward the
+                                           targets that displayed their mutual relationship than targets that did not display such a rela-
+                                           tionship or a single target Thus, H1 is supported.
+
+                                           Discussion
+                                           Our experiment results showed that the participants had more kawaii feelings during the two-
+                                           related conditions than for the two-independent and alone conditions for all types of targets.
+                                           On the other hand, the relationship between the two-independent and alone conditions did not
+                                           show any significant differences except for the two boys. One possible reason for this differ-
+                                           ence between human and robot targets is based on very few differences in appearances
+                                           between targets. A past study reported that clone images of humans induce negative feelings
+                                           [48]. Our study used images of twins who are similar but not identical to each other in terms
+                                           of facial expressions and poses. In contrast, the robots’ appearances are basically the same
+                                           because they are consumer products. Multiple clone robots might induce negative feelings.
+                                           Nevertheless, our experimental results suggest that feelings of kawaii can be increased by dis-
+                                           playing a mutual relationship shared by the targets, even if their appearances are identical.
+
+                                           Experiment 2
+                                           Experiment 2 investigated the effects of the number of robots and their relationship using
+                                           video clips as an additional investigation related to H1.
+
+                                           Materials and methods
+                                           All the procedures were approved by the Advanced Telecommunication Research Review
+                                           Boards (21-501-3).
+                                               Visual stimuli and conditions. We prepared 8-second videos in which a robot (robots)
+                                           waved its (their) hand and said “bye-bye” (goodbye) with/without displaying any mutual rela-
+                                           tionship. We again used Sota, which has an LED on its mouth that blinks to indicate the voice
+                                           volume of the robot. Similarly to Experiment 1, we compared three conditions: alone, two-
+                                           independent, and two-related. We prepared three videos for Experiment 2. Each video’s resolu-
+                                           tion was 1920 × 1080 pixels, with 30 frames per second. Fig 3 shows screenshots from each
+                                           condition. In the alone condition, a robot looks to the front, waves its right hand twice, and
+                                           says “bye-bye.” In the two-independent condition, two robots look to the front, wave their out-
+                                           side hands, and say “bye-bye.” In the two-related condition, to display their mutual relation-
+                                           ship, we employed eye-contact and physical-contact behaviors: two robots held hands from
+                                           the beginning, made eye contact, waved their outside hands, and said “bye-bye.” The video
+                                           clips are available in the supplementary materials.
+                                               Measurement. We investigated the feelings of kawaii with the identical questionnaire
+                                           item from Experiment 1: the feeling of kawaii (0 = not at all, 10 = extremely).
+                                               Procedure. All the procedures were approved by the Advanced Telecommunication
+                                           Research Review Boards (21-501-3). First, the participants read explanations of the experiment
+                                           and how to evaluate each video, and then we verified that they could clearly hear the audio.
+                                           Next they observed a video with alone, two-independent, or two-related conditions and
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0290433 October 18, 2023                                                                           7 / 18
+PLOS ONE                                                     Is two cuter than one? Number and relationship effects on the feeling of kawaii toward social robots
+
+
+
+
+         Fig 3. Video stimuli used in Experiment 2. Snapshots of videos are shown here.
+         https://doi.org/10.1371/journal.pone.0290433.g003
+
+
+                                                  completed questionnaires for each one. Therefore, we also employed a within-participant
+                                                  design for this experiment. Our participants observed and evaluated three videos whose orders
+                                                  were counterbalanced.
+                                                      Participants. Our experiment was conducted using different participant pools of a Japa-
+                                                  nese survey company, i.e., no participants from Experiment 1. A total of 202 people joined it:
+                                                  100 females, 100 males, and 2 who declined to specify gender. Their average age was 41.64
+                                                  years old (S.D. was 9.79, and their age range was from 20s to 60s). The screening process win-
+                                                  nowed that number to 179 valid participants: 87 women, 90 men, and 2 who declined to spec-
+                                                  ify gender. Their average age was 41.44 years old (S.D. was 9.65). These participants were not
+                                                  involved in the first experiment.
+
+
+                                                  Results
+                                                  The Kolmogorov-Smirnov test showed that the feelings of kawaii measurements were not nor-
+                                                  mally distributed, and the skewness and kurtosis values were outside the range between -2 and
+                                                  +2. Therefore, we conducted a Friedman test for the kawaii scores and identified a significant
+                                                  difference (X2(2) = 82.657, p < 0.001). As shown in Fig 4 and Table 2, Multiple comparisons
+                                                  found significant differences between conditions: alone < two-related (p < 0.001), two-inde-
+                                                  pendent < two-related (p < 0.001), and alone < two-independent (p < 0.001). These experi-
+                                                  mental results showed that the participant felt a stronger sense of kawaii toward the robots
+                                                  that displayed their mutual relationship than those that did not display such relationships or a
+                                                  single robot, even though they are not static images. The results also provide additional evi-
+                                                  dence that supports H1.
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0290433 October 18, 2023                                                                                   8 / 18
+PLOS ONE                                               Is two cuter than one? Number and relationship effects on the feeling of kawaii toward social robots
+
+
+
+
+                                           Fig 4. The feelings of kawaii measurements of Experiment 2. Means and standard errors of questionnaire scores
+                                           about feelings of kawaii are shown (1: alone condition, 2I; two-independent condition, 2R: two-related condition).
+                                           https://doi.org/10.1371/journal.pone.0290433.g004
+
+                                           Discussion
+                                           Experiment 2 showed that our participants experienced more feelings of kawaii toward two
+                                           robots that displayed their mutual relationship than toward two robots that did not display
+                                           such a relationship or a single robot. However, unlike Experiment 1 in which two-independent
+                                           robots did not significantly outperform a single robot, Experiment 2 showed their advantages.
+                                           A possible reason for this discrepancy may be that the robots in Experiment 2 moved line-sym-
+                                           metrically and gave fewer clone-like impressions than the static robots in Experiment 1.
+                                               These results also provide an implication for interaction design policy in robot-robot inter-
+                                           actions. Although past studies reported the effectiveness of using multiple robots for informa-
+                                           tion-providing tasks [21–23], they concentrated less on the effects of displaying mutual
+                                           relationships among robots. Perhaps the robots in the previous studies were implicitly
+                                           designed to interact with each other, and perceiving such interactions may make positive con-
+                                           tributions. Our experiment results provide evidence for the merit of explicitly designing a
+                                           “perceivable” interaction between robots when robot developers intend to use multiple robots
+                                           for their services.
+                                               The results of Experiments 1 and 2 consistently show the advantage of multiple robots that
+                                           display their mutual relationships over a single robot to enhance a viewer’s feeling of kawaii.
+                                           However, the comparison was limited to one or two robots.
+
+                                           Experiment 3
+                                           Experiment 3 investigated the best number of robots for inducing the strongest feeling of
+                                           kawaii. Because we investigated RQ2 in an exploratory manner, we did not prepare any pre-
+                                           dictions for it.
+
+                                           Table 2. The mean and S. E. of questionnaire rating scores about feelings of kawaii of Experiment 2.
+                                                                                  Alone                   Two-independent                    Two-related
+                                                 Robot/robots                  7.006 (0.126)                 7.419 (0.133)                  7.855 (0.127)
+                                           https://doi.org/10.1371/journal.pone.0290433.t002
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0290433 October 18, 2023                                                                                    9 / 18
+PLOS ONE                                                     Is two cuter than one? Number and relationship effects on the feeling of kawaii toward social robots
+
+
+
+                                                  Materials and methods
+                                                  All the procedures were approved by the Advanced Telecommunication Research Review
+                                                  Boards (21-501-3).
+                                                      Visual stimuli and conditions. Based on the results of Experiments 1 and 2, we used simi-
+                                                  lar behaviors for the robots. They held hands, made eye contact, nodded to adjust to the timing
+                                                  of the next action, and waved “goodbye.” We manipulated the number of robots from one to
+                                                  ten and took 12-second videos for each, i.e., this experiment has ten conditions: 1, 2, 3,4, 5, 6,
+                                                  7, 8, 9 and 10. Fig 5 shows screenshots from the video stimuli. In the 1condition, a robot
+                                                  looked straight ahead and waved its hands. In the 2 to 10conditions, when the number of
+                                                  robots was even (Fig 6), the robots held hands, made eye contact with their opposite side part-
+                                                  ner, nodded to adjust the timing of the next action, and waved both hands. When the number
+                                                  of robots was odd, the robots behaved similarly, except that the robot in the center looked
+                                                  ahead and moved like the robot in the 1condition. The robots used both hands while waving,
+                                                  which is different from Experiment 2. Video clips are available in the supplementary materials.
+                                                      Measurement. We investigated the feelings of kawaii with the same questionnaire item
+                                                  from Experiments 1 and 2: feelings of kawaii (0 = not at all, 10 = extremely).
+                                                      Procedure. All the procedures were approved by the Advanced Telecommunication
+                                                  Research Review Boards (21-501-3). First, the participants read explanations of the experiment
+                                                  and how to evaluate the video, and then we verified that they could clearly hear the audio.
+                                                  Next they observed the ten videos and answered questionnaires. The order of the ten videos
+                                                  was counterbalanced. They could repeat them as often as they liked while answering them.
+                                                  Finally, they answered dummy questions to verify the quality of their answers.
+                                                      Participants. Experiment 3 was conducted using different participant pools from a Japa-
+                                                  nese survey company, i.e., no participants from Experiments 1 or 2 joined Experiment 3. 200
+                                                  people joined Experiment 3: 98 women and 102 men whose average age was 41.4 years old (S.
+
+
+
+
+         Fig 5. Video stimuli used in Experiment 3. Snapshots of ten videos are shown here.
+         https://doi.org/10.1371/journal.pone.0290433.g005
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0290433 October 18, 2023                                                                                  10 / 18
+PLOS ONE                                               Is two cuter than one? Number and relationship effects on the feeling of kawaii toward social robots
+
+
+
+
+                                          Fig 6. Time course of ten robots’ video used in Experiment 3. Snapshots of picture frames in ten-robot condition are
+                                          shown here.
+                                          https://doi.org/10.1371/journal.pone.0290433.g006
+
+
+                                           D. was 9.51, their age range was from 20s to 60s). The screening process winnowed that num-
+                                           ber to 152 valid participants: 67 women and 85 men whose average age was 41.43 years old (S.
+                                           D. was 9.36).
+
+
+                                           Results
+                                           Fig 7 and Table 3 show the mean and S.E. of the ratings. Because the Kolmogorov-Smirnov
+                                           test showed that the feelings of kawaii measurements were not normally distributed and skew-
+                                           ness and kurtosis values were outside the range between -2 and +2, we conducted a Friedman
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0290433 October 18, 2023                                                                                11 / 18
+PLOS ONE                                                        Is two cuter than one? Number and relationship effects on the feeling of kawaii toward social robots
+
+
+
+
+                                                    Fig 7. The feelings of kawaii measurements of Experiment 3. Means and standard errors of questionnaire scores
+                                                    about feelings of kawaii are shown. We only illustrated significant differences between 2 and other numbers to avoid
+                                                    complications.
+                                                    https://doi.org/10.1371/journal.pone.0290433.g007
+
+                                                    test for the kawaii scores. The analysis showed a significant difference (X2(9) = 169.084, p <
+                                                    0.001). Multiple comparisons with the Bonferroni method found significant differences (all p
+                                                    values are < 0.05) between conditions: 2 > [1, 6, 7, 8, 9, 10], 3 > [6, 7, 8, 9, 10], 4 > [8, 9, 10], 5
+                                                    > [8, 9, 10], 1 > [9, 10], 6 > 10, and 7 > 10. These results showed the advantages of two robots
+                                                    in the context of perceiving kawaii feelings compared to six or more robots. Although statisti-
+                                                    cal comparisons among two to five robots are not significant, only two robots are cuter than
+                                                    one robot within these numbers.
+
+                                                    Discussion
+                                                    Experiment 3 again showed that participants experienced more feelings of kawaii toward two
+                                                    robots that displayed their mutual relationship than a single robot, suggesting that two robots
+                                                    are better choices for increasing feelings of kawaii when the robots’ appearances are identical.
+                                                    Therefore, the results answered RQ2; to increase the feeling of kawaii using targets that have
+                                                    the same appearance, two robots are appropriate choices based on these measurements.
+                                                        This result also highlights an implication for interaction design policy in the representations
+                                                    of the behaviors of multiple robots. Similar to Experiment 2, we provide evidence for the merit
+                                                    of using a small number of multiple robots to increase feelings of kawaii. Robotic companies
+                                                    often use a large number of robots to demonstrate their advanced technology to control them
+                                                    synchronously. Although such an appeal emphasizes the accuracy of their systems, it will not
+                                                    increase the degree of kawaii of their products.
+
+Table 3. The mean and S. E. of questionnaire rating scores about feelings of kawaii of Experiment 3.
+                                         One                        Two                          Three                       Four                         Five
+      Robot/robots                  6.671 (0.137)               7.230 (0.139)                6.941 (0.141)               6.566 (0.146)               6.421 (0.144)
+                                         Six                        Seven                        Eight                       Nine                         Ten
+      Robot/robots                  6.158 (0.155)               6.033 (0.170)                5.822 (0.189)               5.737 (0.193)               5.349 (0.209)
+https://doi.org/10.1371/journal.pone.0290433.t003
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0290433 October 18, 2023                                                                                             12 / 18
+PLOS ONE                                             Is two cuter than one? Number and relationship effects on the feeling of kawaii toward social robots
+
+
+
+                                              One interesting phenomenon is that the participants experienced similar kawaii feelings for
+                                           one and four robots. The number four is one threshold for possible precise counting without
+                                           language [49–51]. Therefore, these results might be related to the limitation of number percep-
+                                           tion in humans.
+                                              One limitation of this study is the formation of the robots. We only investigated feelings of
+                                           kawaii when they were lined up side by side. However, if their formations were different, per-
+                                           haps triangular, the perceived kawaii feeling might be changed even when the number of
+                                           robots is relatively large. Such various formations might create different perceived relation-
+                                           ships among robots, such as leaders and followers, which would also undoubtedly influence
+                                           the perceived feelings. If many robots are crowded together, people observing such a scene
+                                           might perceive mutual relationships and have positive impressions. Investigating the connec-
+                                           tion between the formation and perceived mutual relationships is an interesting future work
+                                           based on our study.
+
+
+                                           General discussion
+                                           Our present three experiments consistently show that the number of targets and their per-
+                                           ceived relationship affect the feelings of kawaii toward them. Our participants evaluated a
+                                           small number of multiple targets that displayed their mutual relationship as most kawaii. This
+                                           phenomenon resembles a previous finding where a sense of communal sharing between
+                                           humans/animals enhanced cuteness perceptions [25] and suggests that people can also experi-
+                                           ence communal sharing feelings from artificial agents like robots. This knowledge is useful for
+                                           behavior designs for robot-robot interaction. It might also be transferable to other kinds of
+                                           consumer products than robots, for instance, in shopping environments. For example, even
+                                           when using such immobile toys as stuffed animals or cartoon character merchandise, changing
+                                           their postures and positions to imply a mutual relationship could increase kawaii feelings in
+                                           customers.
+                                               Most past studies investigating the effects of multiple robots used a maximum of two robots
+                                           [19–23]. The number of suitable robots might depend on their applications and services,
+                                           although our exploratory research approach provides evidence for the advantages of using two
+                                           robots and showing their mutual relationships. The number of effects has been investigated
+                                           with social robots and CG-based agents [19]. Therefore, our knowledge can be used for design-
+                                           ing such agent-based interactions.
+                                               One typical research topic that uses more than two robots is peer pressure. Researchers
+                                           used more than two robots in studies in the context of peer pressure effects from robots
+                                           [39,52,53]. They investigated the confirmation effects of multiple robots with four or six robots
+                                           and concluded that two are not enough [26]. However, in these studies, the robots behaved in
+                                           relation to each other like strangers. Therefore, if they exhibited mutual relationships in
+                                           advance, their social influence might be changed even when the number of robots is two.
+                                               This study has several limitations regarding the appearance and behaviors of its visual sti-
+                                           muli. We only used images of specific targets (i.e., twins, cherries, and robots). Testing with dif-
+                                           ferent types of objects is critical to examine how closely the current knowledge is applicable to
+                                           various targets. For example, more human-like robots like androids [54–56] or cuter pet-like
+                                           robots [3,57] might induce different kawaii feelings. In addition, the number of targets with dif-
+                                           ferent appearances (e.g., not twins, different objects, and robots) and displaying various rela-
+                                           tionships (e.g., a leader and followers) will influence feelings of kawaii differently. The robots’
+                                           motions were also limited to a simple greeting behavior whose motion timing was synchro-
+                                           nized. Since such synchronized robot motions influence people’s perceptions [52], if the timing
+                                           of robot motions were not synchronized, observer impressions would undoubtedly change.
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0290433 October 18, 2023                                                                          13 / 18
+PLOS ONE                                             Is two cuter than one? Number and relationship effects on the feeling of kawaii toward social robots
+
+
+
+                                              Despite these limitations, our results still provide basic knowledge about investigating the
+                                           relationship between the number of targets and feelings of kawaii. For example, if robotics
+                                           researchers investigate the effects of synchronized behavior among multiple robots with differ-
+                                           ent appearances on the feelings of kawaii, a comparison with our results will provide interest-
+                                           ing knowledge for a deeper understanding of the relationship among number, appearance,
+                                           and behavior synchronizations. Moreover, using robots with an identical appearance was a
+                                           realistic approach in past studies on the effects of multiple robots; therefore, the knowledge
+                                           from our study also provides a useful design guideline for researchers who are tackling this
+                                           research topic [19–23].
+                                              One possible future work is to investigate the number and relationship effects with different
+                                           languages and cultures. Although awareness of the word kawaii is spreading worldwide, this
+                                           emotion has been expressed differently in other languages, such as cute in English. Of course,
+                                           cute is not exactly the same expression as kawaii in Japanese [4,5]. Another study investigated
+                                           whether Spanish has a word equivalent to kawaii [58] and reported that tierno/tierna was used
+                                           similarly to kawaii in Japanese and cute in English to describe human and baby animals,
+                                           although kawaii had broader meanings than both words. In addition, an emotion evoked by
+                                           seeing something cute is called “elérzékenyült in Hungarian, heldinud in Estonian, heltyä in
+                                           Finnish” [35]. This study argued that cuteness evokes kama muta, a social-relational emotion.
+                                           Therefore, perhaps different languages and cultures might influence the relationships between
+                                           the number of robots and feelings of kawaii. Understanding such differences may provide
+                                           interesting knowledge and guidelines for designing multiple robot behaviors in global
+                                           markets.
+
+                                           Conclusion
+                                           The present study is the first to investigate the effects of the number of targets and their per-
+                                           ceived relationships on viewer’s feelings of kawaii. Experiment 1 was conducted with static
+                                           images of three different types of targets. Displaying a mutual relationship between two targets
+                                           was felt to be more kawaii than a single target or two targets that did not display any mutual
+                                           relationship, regardless of their types. Experiment 2 was conducted with videos in which one
+                                           or two robots simply waved, and two robots that displayed their mutual relationship were
+                                           most highly evaluated, similar to Experiment 1.
+                                              In Experiment 3, we exploratorily investigated the best number of robots to induce feelings
+                                           of kawaii and found the advantages of using two robots. Despite its exploratory nature, this
+                                           study advances knowledge about the eliciting conditions of kawaii feelings. Both the physical
+                                           appearance of a single target and its number and perceived social relationships are related to
+                                           feelings of kawaii.
+
+                                           Supporting information
+                                           S1 File. Anonymized data set.
+                                           (XLSX)
+                                           S2 File. Visual stimuli.
+                                           (ZIP)
+
+
+                                           Author Contributions
+                                           Conceptualization: Masahiro Shiomi, Rina Hayashi, Hiroshi Nittono.
+                                           Data curation: Masahiro Shiomi.
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0290433 October 18, 2023                                                                          14 / 18
+PLOS ONE                                              Is two cuter than one? Number and relationship effects on the feeling of kawaii toward social robots
+
+
+
+                                           Formal analysis: Masahiro Shiomi.
+                                           Funding acquisition: Masahiro Shiomi, Hiroshi Nittono.
+                                           Investigation: Masahiro Shiomi, Hiroshi Nittono.
+                                           Methodology: Masahiro Shiomi, Rina Hayashi, Hiroshi Nittono.
+                                           Project administration: Masahiro Shiomi, Hiroshi Nittono.
+                                           Resources: Masahiro Shiomi, Rina Hayashi.
+                                           Supervision: Hiroshi Nittono.
+                                           Validation: Masahiro Shiomi, Hiroshi Nittono.
+                                           Visualization: Masahiro Shiomi.
+                                           Writing – original draft: Masahiro Shiomi.
+                                           Writing – review & editing: Masahiro Shiomi, Rina Hayashi, Hiroshi Nittono.
+
+
+
+
+                                           References
+                                             1.   Shibata T. An overview of human interactive robots for psychological enrichment. Proceedings of the
+                                                  IEEE. 2004; 92(11):1749–58. https://doi.org/10.1109/jproc.2004.835383
+                                             2.   Fujita M. AIBO: Toward the era of digital creatures. The International Journal of Robotics Research.
+                                                  2001; 20(10):781–94. https://doi.org/10.1177/02783640122068092
+                                             3.   Yoshida N, Yonemura S, Emoto M, Kawai K, Numaguchi N, Nakazato H, et al. Production of character
+                                                  animation in a home robot: A case study of lovot. Int J of Soc Robotics. 2022; 14(1):39–54. https://doi.
+                                                  org/10.1007/s12369-021-00746-0
+                                             4.   Kinsella S. Cuties in japan. Women, media and consumption in Japan: Routledge; 2013. p. 230–64.
+                                             5.   Nittono H, Fukushima M, Yano A, Moriya H. The power of kawaii: Viewing cute images promotes a care-
+                                                  ful behavior and narrows attentional focus. PloS one. 2012; 7(9):e46362. https://doi.org/10.1371/
+                                                  journal.pone.0046362 PMID: 23050022
+                                             6.   Nittono H. The two-layer model of’kawaii’: A behavioural science framework for understanding kawaii
+                                                  and cuteness. East Asian Journal of Popular Culture. 2016; 2(1):79–96. https://doi.org/10.1386/eapc.2.
+                                                  1.79_1
+                                             7.   Myrick JG. Emotion regulation, procrastination, and watching cat videos online: Who watches Internet
+                                                  cats, why, and to what effect? Computers in human behavior. 2015; 52:168–76. https://doi.org/10.1016/
+                                                  j.chb.2015.06.001
+                                             8.   Proverbio AM, Gabriele VD, Manfredi M, Adorni R. No race effect (ORE) in the automatic orienting
+                                                  toward baby faces: When ethnic group does not matter. Psychology. 2011; 2(09):931–5. https://doi.org/
+                                                  10.4236/psych.2011.29140
+                                             9.   Nittono H, Ihara N. Psychophysiological responses to kawaii pictures with or without baby schema.
+                                                  SAGE Open. 2017; 7(2):2158244017709321. https://doi.org/10.1177/2158244017709321
+                                           10.    Nishiyama K, Oishi K, Saito A. Passersby Attracted by Infants and Mothers’ Acceptance of Their
+                                                  Approaches: A Proximate Factor for Human Cooperative Breeding. Evolutionary Psychology. 2015; 13
+                                                  (2):147470491501300210. https://doi.org/10.1177/147470491501300210 PMID: 26093216
+                                           11.    Lorenz K. The innate forms of potential experience. Z Tierpsychol. 1943; 5:235–409.
+                                           12.    Brooks V, Hochberg J. A psychophysical study of" cuteness.". Perceptual and Motor Skills. 1960.
+                                                  https://doi.org/10.2466/pms.1960.11.2.20
+                                           13.    Miesler L, Leder H, Herrmann A. Isn’t it cute: An evolutionary perspective of baby-schema effects in
+                                                  visual product designs. International Journal of Design. 2011; 5(3).
+                                           14.    Purucker C, Sprott DE, Herrmann A. Consumer response to car fronts: eliciting biological preparedness
+                                                  with product design. Review of Managerial Science. 2014; 8(4):523–40. https://doi.org/10.1007/
+                                                  s11846-013-0116-2
+                                           15.    Ishihara H, Asada M. Design of 22-DOF pneumatically actuated upper body for child android ‘Affetto’.
+                                                  Advanced Robotics. 2015; 29(18):1151–63. https://doi.org/10.1080/01691864.2015.1046923
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0290433 October 18, 2023                                                                            15 / 18
+PLOS ONE                                              Is two cuter than one? Number and relationship effects on the feeling of kawaii toward social robots
+
+
+
+                                           16.   Chen L, Ma B, Lu X, editors. Research on the Influence of Cuteness Design of Service Robot on Hotel
+                                                 Customer Tolerance. 2022 International Conference on Computer Science, Information Engineering
+                                                 and Digital Economy (CSIEDE 2022); 2022: Atlantis Press.
+                                           17.   Ohkura M. Kawaii engineering. Kawaii Engineering: Springer; 2019. p. 3–12.
+                                           18.   Okada Y, Kimoto M, Iio T, Shimohara K, Nittono H, Shiomi M. Kawaii emotions in presentations: View-
+                                                 ing a physical touch affects perception of affiliative feelings of others toward an object. Plos one. 2022;
+                                                 17(3):e0264736. https://doi.org/10.1371/journal.pone.0264736 PMID: 35324906
+                                           19.   Shiomi M, Okumura S, Kimoto M, Iio T, Shimohara K. Two is better than one: Social rewards from two
+                                                 agents enhance offline improvements in motor skills more than single agent. PloS one. 2020; 15(11):
+                                                 e0240622. https://doi.org/10.1371/journal.pone.0240622 PMID: 33147230
+                                           20.   Shiomi M, Tamura Y, Kimoto M, Iio T, Akahane-Yamada R, Shimohara K. Two is better than one: verifi-
+                                                 cation of the effect of praise from two robots on pre-school children’s learning time. Advanced Robotics.
+                                                 2021; 35(19):1132–44. https://doi.org/10.1080/01691864.2021.1970019
+                                           21.   Sakamoto D, Hayashi K, Kanda T, Shiomi M, Koizumi S, Ishiguro H, et al. Humanoid Robots as a
+                                                 Broadcasting Communication Medium in Open Public Spaces. Int J of Soc Robotics. 2009; 1(2):157–
+                                                 69. https://doi.org/10.1007/s12369-009-0015-5
+                                           22.   Iio T, Yoshikawa Y, Ishiguro H. Double-meaning agreements by two robots to conceal incoherent
+                                                 agreements to user’s opinions. Advanced Robotics. 2021; 35(19):1145–55. https://doi.org/10.1080/
+                                                 01691864.2021.1974939
+                                           23.   Tamura Y, Shiomi M, Kimoto M, Iio T, Shimohara K, Hagita N. Robots as an interactive-social medium
+                                                 in storytelling to multiple children. Interaction Studies. 2021; 22(1):110–40. https://doi.org/10.1075/is.
+                                                 18033.tam
+                                           24.   Fiske AP. The four elementary forms of sociality: framework for a unified theory of social relations. Psy-
+                                                 chological review. 1992; 99(4):689. https://doi.org/10.1037/0033-295x.99.4.689 PMID: 1454904
+                                           25.   Steinnes KK, Blomster JK, Seibt B, Zickfeld JH, Fiske AP. Too cute for words: Cuteness evokes the
+                                                 heartwarming emotion of kama muta. Frontiers in psychology. 2019; 10:387. https://doi.org/10.3389/
+                                                 fpsyg.2019.00387 PMID: 30881329
+                                           26.   Shiomi M, Hagita N. Do the number of robots and the participant’s gender influence conformity effect
+                                                 from multiple robots? Advanced Robotics. 2019; 33(15–16):756–63. https://doi.org/10.1080/01691864.
+                                                 2019.1617781
+                                           27.   Savela N, Turja T, Oksanen A. Social acceptance of robots in different occupational fields: A systematic lit-
+                                                 erature review. Int J of Soc Robotics. 2018; 10(4):493–502. https://doi.org/10.1007/s12369-017-0452-5
+                                           28.   Naneva S, Sarda Gou M, Webb TL, Prescott TJ. A systematic review of attitudes, anxiety, acceptance,
+                                                 and trust towards social robots. Int J of Soc Robotics. 2020; 12(6):1179–201. https://doi.org/10.1007/
+                                                 s12369-020-00659-4
+                                           29.   Gaudiello I, Zibetti E, Lefort S, Chetouani M, Ivaldi S. Trust as indicator of robot functional and social
+                                                 acceptance. An experimental study on user conformation to iCub answers. Computers in Human
+                                                 Behavior. 2016; 61:633–55. https://doi.org/10.1016/j.chb.2016.03.057
+                                           30.   Iwamura Y, Shiomi M, Kanda T, Ishiguro H, Hagita N, editors. Do elderly people prefer a conversational
+                                                 humanoid as a shopping assistant partner in supermarkets? Human-Robot Interaction (HRI), 2011 6th
+                                                 ACM/IEEE International Conference on; 2011 8–11 March 2011.
+                                           31.   Shiomi M, Hagita N. Social acceptance toward a childcare support robot system: web-based cultural dif-
+                                                 ferences investigation and a field study in Japan. Advanced Robotics. 2017:727–38. https://doi.org/10.
+                                                 1080/01691864.2017.1345322
+                                           32.   Caudwell C, Lacey C, Sandoval EB, editors. The (Ir) relevance of Robot Cuteness: An Exploratory
+                                                 Study of Emotionally Durable Robot Design. Proceedings of the 31st Australian Conference on Human-
+                                                 Computer-Interaction; 2019.
+                                           33.   Caudwell C, Lacey C. What do home robots want? The ambivalent power of cuteness in robotic rela-
+                                                 tionships. Convergence. 2019:1354856519837792. https://doi.org/10.1177/1354856519837792
+                                           34.   Tasaki R, Kitazaki M, Miura J, Terashima K, editors. Prototype design of medical round supporting
+                                                 robot “Terapio”. 2015 IEEE International Conference on Robotics and Automation (ICRA); 2015: IEEE.
+                                           35.   Matsumura R, Shiomi M, Nakagawa K, Shinozawa K, Miyashita T. A desktop-sized communication
+                                                 robot:“robovie-mr2”. Journal of Robotics and Mechatronics. 2016; 28(1):107–8. https://doi.org/10.
+                                                 20965/jrm.2016.p0107
+                                           36.   Song Y, Luximon A, Luximon Y. The effect of facial features on facial anthropomorphic trustworthiness
+                                                 in social robots. Applied Ergonomics. 2021; 94:103420. https://doi.org/10.1016/j.apergo.2021.103420
+                                                 PMID: 33823378
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0290433 October 18, 2023                                                                               16 / 18
+PLOS ONE                                             Is two cuter than one? Number and relationship effects on the feeling of kawaii toward social robots
+
+
+
+                                           37.   Iio T, Yoshikawa Y, Ishiguro H. Retaining Human-Robots Conversation: Comparing Single Robot to
+                                                 Multiple Robots in a Real Event. Journal of Advanced Computational Intelligence Intelligent Informatics.
+                                                 2017; 21(4):675–85. https://doi.org/10.20965/jaciii.2017.p0675
+                                           38.   Okumura S, Kimoto M, Shiomi M, Iio T, Shimohara K, Hagita N, editors. Do Social Rewards from
+                                                 Robots Enhance Offline Improvements in Motor Skills? International Conference on Social Robotics;
+                                                 2017: Springer.
+                                           39.   Vollmer A-L, Read R, Trippas D, Belpaeme T. Children conform, adults resist: A robot group induced
+                                                 peer pressure on normative social conformity. Science Robotics. 2018; 3(21):eaat7111. https://doi.org/
+                                                 10.1126/scirobotics.aat7111 PMID: 33141720
+                                           40.   Okada Y, Taniguchi R, Tatsumi A, Okubo M, Kimoto M, Iio T, et al., editors. Effects of Touch Behaviors
+                                                 and Whispering Voices in Robot-Robot Interaction for Information Providing Tasks. 2020 29th IEEE
+                                                 International Conference on Robot and Human Interactive Communication (RO-MAN); 2020: IEEE.
+                                           41.   Reeves B, Nass C. The Media Equation: How people treat computers, television, and new media like
+                                                 real people and places: CSLI Publications and Cambridge university press; 1996.
+                                           42.   Epley N, Akalis S, Waytz A, Cacioppo JT. Creating social connection through inferential reproduction:
+                                                 Loneliness and perceived agency in gadgets, gods, and greyhounds. Psychological science. 2008; 19
+                                                 (2):114–20. https://doi.org/10.1111/j.1467-9280.2008.02056.x PMID: 18271858
+                                           43.   Wu H, Leung S-O. Can Likert scales be treated as interval scales?—A Simulation study. Journal of
+                                                 Social Service Research. 2017; 43(4):527–32. https://doi.org/10.1080/01488376.2017.1329775
+                                           44.   Downs JS, Holbrook MB, Sheng S, Cranor LF. Are your participants gaming the system? screening
+                                                 mechanical turk workers. Proceedings of the SIGCHI Conference on Human Factors in Computing Sys-
+                                                 tems; Atlanta, Georgia, USA: Association for Computing Machinery; 2010. p. 2399–402.
+                                           45.   Oppenheimer DM, Meyvis T, Davidenko N. Instructional manipulation checks: Detecting satisficing to
+                                                 increase statistical power. Journal of experimental social psychology. 2009; 45(4):867–72. https://doi.
+                                                 org/10.1016/j.jesp.2009.03.009
+                                           46.   Trochim WM, Donnelly JP. Research methods knowledge base: Atomic Dog Pub. Macmillan Publish-
+                                                 ing Company, New York; 2001.
+                                           47.   Gravetter FJ, Wallnau LB, Forzano L-AB, Witnauer JE. Essentials of statistics for the behavioral sci-
+                                                 ences: Cengage Learning; 2020.
+                                           48.   Yonemitsu F, Sasaki K, Gobara A, Yamada Y. The clone devaluation effect: A new uncanny phenome-
+                                                 non concerning facial identity. PLOS ONE. 2021; 16(7):e0254396. https://doi.org/10.1371/journal.pone.
+                                                 0254396 PMID: 34255794
+                                           49.   Feigenson L, Dehaene S, Spelke E. Core systems of number. Trends in cognitive sciences. 2004; 8
+                                                 (7):307–14. https://doi.org/10.1016/j.tics.2004.05.002 PMID: 15242690
+                                           50.   Pahl M, Si A, Zhang S. Numerical cognition in bees and other insects. Frontiers in psychology. 2013;
+                                                 4:162. https://doi.org/10.3389/fpsyg.2013.00162 PMID: 23616774
+                                           51.   Pitt B, Gibson E, Piantadosi ST. Exact number concepts are limited to the verbal count range. Psycho-
+                                                 logical Science. 2022; 33(3):371–81. https://doi.org/10.1177/09567976211034502 PMID: 35132893
+                                           52.   Shiomi M, Hagita N. Do Synchronized Multiple Robots Exert Peer Pressure? Proceedings of the Fourth
+                                                 International Conference on Human Agent Interaction; Biopolis, Singapore. 2974808: ACM; 2016.
+                                                 p. 27–33.
+                                           53.   Salomons N, Linden Mvd, Sebo SS, Scassellati B. Humans Conform to Robots: Disambiguating Trust,
+                                                 Truth, and Conformity. Proceedings of the 2018 ACM/IEEE International Conference on Human-Robot
+                                                 Interaction; Chicago, IL, USA: Association for Computing Machinery; 2018. p. 187–95.
+                                           54.   Sakamoto D, Ishiguro H. Geminoid: Remote-controlled android system for studying human presence.
+                                                 Kansei Engineering International. 2009; 8(1):3–9. https://doi.org/10.5057/er081218-1
+                                           55.   Glas DF, Minato T, Ishi CT, Kawahara T, Ishiguro H, editors. Erica: The erato intelligent conversational
+                                                 android. Robot and Human Interactive Communication (RO-MAN), 2016 25th IEEE International Sym-
+                                                 posium on; 2016: IEEE.
+                                           56.   Shiomi M, Sumioka H, Sakai K, Funayama T, Minato T. SŌTO: An Android Platform with a Masculine
+                                                 Appearance for Social Touch Interaction. Companion of the 2020 ACM/IEEE International Conference
+                                                 on Human-Robot Interaction; Cambridge, United Kingdom: Association for Computing Machinery;
+                                                 2020. p. 447–9.
+                                           57.   Yu R, Hui E, Lee J, Poon D, Ng A, Sit K, et al. Use of a Therapeutic, Socially Assistive Pet Robot
+                                                 (PARO) in Improving Mood and Stimulating Social Interaction and Communication for People With
+                                                 Dementia: Study Protocol for a Randomized Controlled Trial. JMIR research protocols. 2015; 4(2).
+                                                 https://doi.org/10.2196/resprot.4189 PMID: 25934173
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0290433 October 18, 2023                                                                           17 / 18
+PLOS ONE                                             Is two cuter than one? Number and relationship effects on the feeling of kawaii toward social robots
+
+
+
+                                           58.   Nittono H, Saito H, Ihara N, Fenocchio DN, Andreau JM. English and Spanish adjectives that describe
+                                                 the Japanese concept of kawaii. SAGE Open. 2023:1–12. https://doi.org/10.1177/
+                                                 21582440231152415
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0290433 October 18, 2023                                                                          18 / 18

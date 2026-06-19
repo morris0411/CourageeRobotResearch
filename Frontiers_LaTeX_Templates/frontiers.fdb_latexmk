@@ -1,15 +1,14 @@
 # Fdb version 4
-["bibtex frontiers"] 1781080401.67407 "frontiers.aux" "frontiers.bbl" "frontiers" 1781081240.23685 0
+["bibtex frontiers"] 1781761113.7309 "frontiers.aux" "frontiers.bbl" "frontiers" 1781761246.63858 0
   "./Frontiers-Harvard.bst" 1781055195 31641 1341c127ed7af43085eb64600f38bbe5 ""
   "./test.bib" 1781055195 1721 b25ba6084ef977471166d005572ae5aa ""
-  "frontiers.aux" 1781081239 4318 eaa68a01eb3524efabc8282ce52774f5 "pdflatex"
+  "frontiers.aux" 1781761245 4318 cbed55c226e0bbe9a00ab0cbf4d274c9 "pdflatex"
   (generated)
   "frontiers.bbl"
   "frontiers.blg"
   (rewritten before read)
-["pdflatex"] 1781081238.62511 "c:/Users/yuki4/Downloads/Frontiers_LaTeX_Templates/frontiers.tex" "frontiers.pdf" "frontiers" 1781081240.23734 0
+["pdflatex"] 1781761245.12271 "c:/研究活動/博論/挑戦ロボット研究/Frontiers_LaTeX_Templates/frontiers.tex" "frontiers.pdf" "frontiers" 1781761246.63906 0
   "FrontiersinHarvard.cls" 1781070505 28683 481ad81cc8e690e52eb5d9a064e3ee22 ""
-  "c:/Users/yuki4/Downloads/Frontiers_LaTeX_Templates/frontiers.tex" 1781081238 15021 445b957dac5a00ae501ed4e8f19118b0 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc" 1781057442 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1781058385 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1781056994 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -155,10 +154,11 @@
   "c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1781064006 5619402 ad1310ccf7f36101ef3e8f014a173c46 ""
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1781064098 3656607 a33f5f77cd37d7e3160397ab21a2700c ""
   "c:/texlive/2026/texmf.cnf" 1781063989 713 e69b156964470283e0530f5060668171 ""
-  "frontiers.aux" 1781081239 4318 eaa68a01eb3524efabc8282ce52774f5 "pdflatex"
-  "frontiers.bbl" 1781080401 1926 65f112cb30c9b1629d0e34fdba23a4bd "bibtex frontiers"
-  "frontiers.out" 1781081239 2233 fbdcd0bcc4c9cf738695c24e71a5a9dd "pdflatex"
-  "frontiers.tex" 1781081238 15021 445b957dac5a00ae501ed4e8f19118b0 ""
+  "c:/研究活動/博論/挑戦ロボット研究/Frontiers_LaTeX_Templates/frontiers.tex" 1781761218 15015 68140d2d93988ea192057e37ceb272ec ""
+  "frontiers.aux" 1781761245 4318 cbed55c226e0bbe9a00ab0cbf4d274c9 "pdflatex"
+  "frontiers.bbl" 1781761114 1920 16619e8d7212d7ff5f2dfa944ef4b7c3 "bibtex frontiers"
+  "frontiers.out" 1781761245 2233 fbdcd0bcc4c9cf738695c24e71a5a9dd "pdflatex"
+  "frontiers.tex" 1781761218 15015 68140d2d93988ea192057e37ceb272ec ""
   "logo1.pdf" 1781055195 27591 c9c324700d80d9ea6d7bfd29ab6a68a1 ""
   "logo2.pdf" 1781055195 13585 6108f910371132ec05f2550329b80f02 ""
   (generated)

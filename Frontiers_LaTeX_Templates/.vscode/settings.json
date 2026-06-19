@@ -1,10 +1,20 @@
 {
   "latex-workshop.latex.tools": [
     {
-      "name": "latexmk",
+      "name": "latexmk-pdf",
       "command": "C:/texlive/2026/bin/windows/latexmk.exe",
       "args": [
         "-pdf",
+        "-interaction=nonstopmode",
+        "-synctex=1",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "latexmk-xelatex",
+      "command": "C:/texlive/2026/bin/windows/latexmk.exe",
+      "args": [
+        "-xelatex",
         "-interaction=nonstopmode",
         "-synctex=1",
         "%DOC%"
@@ -13,11 +23,17 @@
   ],
   "latex-workshop.latex.recipes": [
     {
-      "name": "latexmk",
+      "name": "latexmk-xelatex",
       "tools": [
-        "latexmk"
+        "latexmk-xelatex"
+      ]
+    },
+    {
+      "name": "latexmk-pdf",
+      "tools": [
+        "latexmk-pdf"
       ]
     }
   ],
-  "latex-workshop.latex.recipe.default": "latexmk"
+  "latex-workshop.latex.recipe.default": "latexmk-xelatex"
 }

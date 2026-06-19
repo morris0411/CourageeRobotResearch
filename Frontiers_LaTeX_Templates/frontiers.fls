@@ -1,8 +1,8 @@
-PWD c:/Users/yuki4/Downloads/Frontiers_LaTeX_Templates
+PWD c:/研究活動/博論/挑戦ロボット研究/Frontiers_LaTeX_Templates
 INPUT c:/texlive/2026/texmf.cnf
 INPUT c:/texlive/2026/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/yuki4/Downloads/Frontiers_LaTeX_Templates/frontiers.tex
+INPUT c:/研究活動/博論/挑戦ロボット研究/Frontiers_LaTeX_Templates/frontiers.tex
 OUTPUT frontiers.log
 INPUT ./FrontiersinHarvard.cls
 INPUT FrontiersinHarvard.cls
@@ -270,6 +270,9 @@ INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/helvetic/phvb7t.vf
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/helvetic/phvbo7t.vf
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvbo8r.tfm
+INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/helvetic/phvro7t.vf
 INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/helvetic/phvb7t.vf
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1pcr.fd
@@ -280,9 +283,6 @@ INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvbo7t.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/helvetic/phvbo7t.vf
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvbo8r.tfm
-INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/helvetic/phvbo7t.vf
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvbo8r.tfm
-INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/helvetic/phvro7t.vf
 INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/courier/pcrr7t.vf
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
 INPUT ./frontiers.bbl

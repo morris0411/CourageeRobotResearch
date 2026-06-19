@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.10)  10 JUN 2026 17:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.10)  18 JUN 2026 14:40
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/yuki4/Downloads/Frontiers_LaTeX_Templates/frontiers.tex
-(c:/Users/yuki4/Downloads/Frontiers_LaTeX_Templates/frontiers.tex
+**c:/研究活動/博論/挑戦ロボット研究/Frontiers_LaTeX_Templates/frontiers.tex
+(c:/研究活動/博論/挑戦ロボット研究/Frontiers_LaTeX_Templates/frontiers.tex
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
 (./FrontiersinHarvard.cls
@@ -446,7 +447,7 @@ LaTeX Info: Redefining \microtypesetup on input line 3065.
 ) (c:/texlive/2026/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 44.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 45.
  (c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (c:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -455,24 +456,24 @@ File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 ) (./frontiers.aux)
 \openout1 = `frontiers.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
  (c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count356
@@ -487,30 +488,30 @@ LaTeX Font Info:    ... okay on input line 44.
 \makeMPintoPDFobject=\count361
 \everyMPtoPDFconversion=\toks43
 )
-Package crop Info: requested driver: `' on input line 44.
-Package crop Info: detected driver: `pdftex' on input line 44.
-Package crop Info: using `pdftex' graphics driver on input line 44.
+Package crop Info: requested driver: `' on input line 45.
+Package crop Info: detected driver: `pdftex' on input line 45.
+Package crop Info: using `pdftex' graphics driver on input line 45.
  (c:/texlive/2026/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 44.
+Package hyperref Info: Link coloring OFF on input line 45.
  (./frontiers.out) (./frontiers.out)
 \@outlinefile=\write3
 \openout3 = `frontiers.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 44.
-Package microtype Info: Applying patch `item' on input line 44.
-Package microtype Info: Applying patch `toc' on input line 44.
-Package microtype Info: Applying patch `eqnum' on input line 44.
+LaTeX Info: Redefining \microtypecontext on input line 45.
+Package microtype Info: Applying patch `item' on input line 45.
+Package microtype Info: Applying patch `toc' on input line 45.
+Package microtype Info: Applying patch `eqnum' on input line 45.
 
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 44.
+Package microtype Warning: Unable to apply patch `footnote' on input line 45.
 
-Package microtype Info: Applying patch `verbatim' on input line 44.
-LaTeX Info: Redefining \microtypesetup on input line 44.
+Package microtype Info: Applying patch `verbatim' on input line 45.
+LaTeX Info: Redefining \microtypesetup on input line 45.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2),
 (microtype)             factor: 1500.
@@ -525,7 +526,7 @@ Package microtype Info: No adjustment of character kerning.
 (c:/texlive/2026/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 59.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 60.
  (c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
@@ -536,79 +537,73 @@ Package microtype Info: Loading generic protrusion settings for font family
 <./logo1.pdf, id=68, 284.06125pt x 80.3pt>
 File: ./logo1.pdf Graphic file (type pdf)
 <use ./logo1.pdf>
-Package pdftex.def Info: ./logo1.pdf  used on input line 59.
+Package pdftex.def Info: ./logo1.pdf  used on input line 60.
 (pdftex.def)             Requested size: 144.0pt x 40.70862pt.
 
-Underfull \hbox (badness 10000) detected at line 59
+Underfull \hbox (badness 10000) detected at line 60
 []
  []
 
 
-Overfull \hbox (8.53581pt too wide) in paragraph at lines 59--59
+Overfull \hbox (8.53581pt too wide) in paragraph at lines 60--60
 [][] 
  []
 
 (c:/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
  (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (c:/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
  (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (c:/texlive/2026/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Underfull \hbox (badness 10000) detected at line 59
+Underfull \hbox (badness 10000) detected at line 60
 []
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <12> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 94.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 95.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 96.
+[1
 
 
 
 {c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc} <./logo1.pdf>]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 117.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 118.
  (c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <11> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 118.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 126.
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
- [2]
+ [2] (./frontiers.bbl
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
- [3] (./frontiers.bbl)
-<logo1.pdf, id=143, 284.06125pt x 80.3pt>
+ [3])
+<logo1.pdf, id=146, 284.06125pt x 80.3pt>
 File: logo1.pdf Graphic file (type pdf)
 <use logo1.pdf>
-Package pdftex.def Info: logo1.pdf  used on input line 172.
+Package pdftex.def Info: logo1.pdf  used on input line 173.
 (pdftex.def)             Requested size: 284.52756pt x 80.43947pt.
 File: logo1.pdf Graphic file (type pdf)
 <use logo1.pdf>
-Package pdftex.def Info: logo1.pdf  used on input line 184.
+Package pdftex.def Info: logo1.pdf  used on input line 185.
 (pdftex.def)             Requested size: 252.0pt x 71.24008pt.
-Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on input line 185.
-<logo2.pdf, id=144, 70.2625pt x 79.29625pt>
+Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on input line 186.
+<logo2.pdf, id=147, 70.2625pt x 79.29625pt>
 File: logo2.pdf Graphic file (type pdf)
 <use logo2.pdf>
-Package pdftex.def Info: logo2.pdf  used on input line 192.
+Package pdftex.def Info: logo2.pdf  used on input line 193.
 (pdftex.def)             Requested size: 252.0pt x 284.44862pt.
 
 
@@ -634,14 +629,14 @@ Package rerunfilecheck Info: File `frontiers.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  16461 strings out of 467167
- 261150 string characters out of 5413691
- 729653 words of memory out of 5000000
+ 261219 string characters out of 5413691
+ 732646 words of memory out of 5000000
  45234 multiletter control sequences out of 15000+600000
  664175 words of font info for 194 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 87i,8n,131p,1068b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,8n,131p,1091b,594s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on frontiers.pdf (5 pages, 212930 bytes).
+Output written on frontiers.pdf (5 pages, 214108 bytes).
 PDF statistics:
  238 PDF objects out of 1000 (max. 8388607)
  192 compressed objects within 2 object streams

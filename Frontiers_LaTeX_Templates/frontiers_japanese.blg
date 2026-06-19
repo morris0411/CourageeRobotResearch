@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99e (TeX Live 2026)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: frontiers_japanese.aux
+The style file: Frontiers-Harvard.bst
+Database file #1: references_japanese.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 36 entries,
+            3029 wiz_defined-function locations,
+            802 strings with 10955 characters,
+and the built_in function-call counts, 21165 in all, are:
+= -- 1753
+> -- 1100
+< -- 17
++ -- 532
+- -- 295
+* -- 1511
+:= -- 3231
+add.period$ -- 77
+call.type$ -- 36
+change.case$ -- 278
+chr.to.int$ -- 37
+cite$ -- 72
+duplicate$ -- 1434
+empty$ -- 1463
+format.name$ -- 412
+if$ -- 4209
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 302
+newline$ -- 235
+num.names$ -- 144
+pop$ -- 739
+preamble$ -- 1
+purify$ -- 242
+quote$ -- 0
+skip$ -- 730
+stack$ -- 0
+substring$ -- 736
+swap$ -- 618
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 324
+warning$ -- 0
+while$ -- 132
+width$ -- 0
+write$ -- 503
