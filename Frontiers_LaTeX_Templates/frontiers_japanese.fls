@@ -1,4 +1,4 @@
-PWD C:/研究活動/博論/挑戦ロボット研究/Frontiers_LaTeX_Templates
+PWD C:/研究/CourageeRobotResearch/Frontiers_LaTeX_Templates
 INPUT c:/texlive/2026/texmf.cnf
 INPUT c:/texlive/2026/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2026/texmf-var/web2c/xetex/xelatex.fmt
@@ -274,12 +274,18 @@ INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT ./figures/fig_study1_stimulus_flow.png
+INPUT ./figures/fig_study1_stimulus_flow.png
+INPUT ./figures/fig_study1_stimulus_flow.png
 INPUT ./figures/fig3_study1_courage.png
 INPUT ./figures/fig3_study1_courage.png
 INPUT ./figures/fig3_study1_courage.png
 INPUT ./figures/fig4_study1_conflict.png
 INPUT ./figures/fig4_study1_conflict.png
 INPUT ./figures/fig4_study1_conflict.png
+INPUT ./figures/fig_study2_stimulus_flow.png
+INPUT ./figures/fig_study2_stimulus_flow.png
+INPUT ./figures/fig_study2_stimulus_flow.png
 INPUT ./figures/fig5_study2_courage.png
 INPUT ./figures/fig5_study2_courage.png
 INPUT ./figures/fig5_study2_courage.png
