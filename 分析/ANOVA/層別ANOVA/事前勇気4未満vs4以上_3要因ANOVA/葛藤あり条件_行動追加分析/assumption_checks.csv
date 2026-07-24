@@ -1,0 +1,5 @@
+﻿check,statistic,p_value,interpretation
+Levene: group main-effect scores,0.9675126864105825,0.3272166221240723,equal-variance assumption not rejected
+Levene: action differences by group,0.00040086305631293576,0.9840583509032631,equal-variance assumption not rejected
+Shapiro-Wilk: group-model residuals,0.9853294943524453,0.1928938084119019,normality not rejected
+Shapiro-Wilk: action-model residuals,0.9194458285150122,1.3469501603293078e-06,normality rejected; see Wilcoxon sensitivity check
