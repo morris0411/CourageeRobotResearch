@@ -4,44 +4,44 @@ The top-level auxiliary file: frontiers.aux
 The style file: Frontiers-Harvard.bst
 Database file #1: references_japanese.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 37 entries,
+You've used 35 entries,
             3029 wiz_defined-function locations,
-            812 strings with 11419 characters,
-and the built_in function-call counts, 22349 in all, are:
-= -- 1851
-> -- 1177
-< -- 18
-+ -- 572
-- -- 316
-* -- 1598
-:= -- 3388
-add.period$ -- 80
-call.type$ -- 37
-change.case$ -- 292
-chr.to.int$ -- 38
-cite$ -- 74
-duplicate$ -- 1508
-empty$ -- 1535
-format.name$ -- 436
-if$ -- 4460
+            878 strings with 12600 characters,
+and the built_in function-call counts, 25565 in all, are:
+= -- 2241
+> -- 1264
+< -- 15
++ -- 617
+- -- 340
+* -- 1921
+:= -- 3729
+add.period$ -- 107
+call.type$ -- 35
+change.case$ -- 293
+chr.to.int$ -- 36
+cite$ -- 70
+duplicate$ -- 1638
+empty$ -- 1778
+format.name$ -- 451
+if$ -- 5200
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 320
-newline$ -- 242
-num.names$ -- 148
-pop$ -- 772
+missing$ -- 373
+newline$ -- 258
+num.names$ -- 146
+pop$ -- 754
 preamble$ -- 1
-purify$ -- 253
+purify$ -- 250
 quote$ -- 0
-skip$ -- 795
+skip$ -- 821
 stack$ -- 0
-substring$ -- 779
-swap$ -- 664
-text.length$ -- 1
+substring$ -- 1302
+swap$ -- 849
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 333
+type$ -- 315
 warning$ -- 0
-while$ -- 138
+while$ -- 180
 width$ -- 0
-write$ -- 521
+write$ -- 577

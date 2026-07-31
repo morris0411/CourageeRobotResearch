@@ -1,8 +1,9 @@
-\begin{thebibliography}{37}
+\begin{thebibliography}{35}
 \providecommand{\natexlab}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
-  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup \urlstyle{rm}\Url}\fi
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
 \providecommand{\selectlanguage}[1]{\relax}
 \providecommand{\bibAnnoteFile}[1]{%
   \IfFileExists{#1}{\begin{quotation}\noindent\textsc{Key:} #1\\
@@ -11,85 +12,106 @@
   \begin{quotation}\noindent\textsc{Key:} #1\\
   \textsc{Annotation:}\ #2\end{quotation}}
 
-\bibitem[{Balafoutas et~al.(2014)Balafoutas, Nikiforakis, and Rockenbach}]{balafoutas2014}
+\bibitem[{Balafoutas et~al.(2014)Balafoutas, Nikiforakis, and
+  Rockenbach}]{balafoutas2014}
 Balafoutas, L., Nikiforakis, N., and Rockenbach, B. (2014).
 \newblock Direct and indirect punishment among strangers in the field.
-\newblock \emph{Proceedings of the National Academy of Sciences} 111, 15924--15927.
+\newblock \emph{Proc. Natl. Acad. Sci. U.S.A.} 111, 15924--15927.
 \newblock \doi{10.1073/pnas.1413170111}
 \bibAnnoteFile{balafoutas2014}
 
 \bibitem[{Bandura(1977)}]{bandura1977}
 Bandura, A. (1977).
-\newblock Self-efficacy: Toward a unifying theory of behavioral change.
-\newblock \emph{Psychological Review} 84, 191--215
+\newblock Self-efficacy: toward a unifying theory of behavioral change.
+\newblock \emph{Psychol. Rev.} 84, 191--215.
+\newblock \doi{10.1037/0033-295X.84.2.191}
 \bibAnnoteFile{bandura1977}
 
-\bibitem[{Braaksma et~al.(2002)Braaksma, Rijlaarsdam, and Van~den Bergh}]{braaksma2002}
-Braaksma, M. A.~H., Rijlaarsdam, G., and Van~den Bergh, H. (2002).
+\bibitem[{Braaksma et~al.(2002)Braaksma, Rijlaarsdam, and van~den
+  Bergh}]{braaksma2002}
+Braaksma, M. A.~H., Rijlaarsdam, G., and van~den Bergh, H. (2002).
 \newblock Observational learning and the effects of model-observer similarity.
-\newblock \emph{Journal of Educational Psychology}
+\newblock \emph{J. Educ. Psychol.} 94, 405--415.
+\newblock \doi{10.1037/0022-0663.94.2.405}
 \bibAnnoteFile{braaksma2002}
 
-\bibitem[{Chaisaen et~al.(2020)}]{chaisaen2020}
-Chaisaen, R. et~al. (2020).
-\newblock Decoding eeg rhythms during action observation, motor imagery, and execution for standing and sitting.
-\newblock \emph{IEEE Access}
+\bibitem[{Chaisaen et~al.(2020)Chaisaen, Autthasan, Mingchinda, Leelaarporn,
+  Kunaseth, Tammajarung et~al.}]{chaisaen2020}
+Chaisaen, R., Autthasan, P., Mingchinda, N., Leelaarporn, P., Kunaseth, N.,
+  Tammajarung, S., et~al. (2020).
+\newblock Decoding {EEG} rhythms during action observation, motor imagery, and
+  execution for standing and sitting.
+\newblock \emph{IEEE Sens. J.} 20, 13776--13786.
+\newblock \doi{10.1109/JSEN.2020.3005968}
 \bibAnnoteFile{chaisaen2020}
 
 \bibitem[{Chekroun and Brauer(2002)}]{chekroun2002}
 Chekroun, P. and Brauer, M. (2002).
-\newblock The bystander effect and social control behavior: The effect of the presence of others on people's reactions to norm violations.
-\newblock \emph{European Journal of Social Psychology} 32, 853--867.
+\newblock The bystander effect and social control behavior: the effect of the
+  presence of others on people's reactions to norm violations.
+\newblock \emph{Eur. J. Soc. Psychol.} 32, 853--867.
 \newblock \doi{10.1002/ejsp.126}
 \bibAnnoteFile{chekroun2002}
 
-\bibitem[{Chowkase et~al.(2024)Chowkase, Parra-Martinez, Ghahremani, Bernstein, Finora, and Sternberg}]{chowkase2024}
-Chowkase, A.~A., Parra-Martinez, F.~A., Ghahremani, M., Bernstein, Z., Finora, G., and Sternberg, R.~J. (2024).
+\bibitem[{Chowkase et~al.(2024)Chowkase, Parra-Mart{\'i}nez, Ghahremani,
+  Bernstein, Finora, and Sternberg}]{chowkase2024}
+Chowkase, A.~A., Parra-Mart{\'i}nez, F.~A., Ghahremani, M., Bernstein, Z.,
+  Finora, G., and Sternberg, R.~J. (2024).
 \newblock Dual-process model of courage.
-\newblock \emph{Frontiers in Psychology}
+\newblock \emph{Front. Psychol.} 15, 1376195.
+\newblock \doi{10.3389/fpsyg.2024.1376195}
 \bibAnnoteFile{chowkase2024}
 
 \bibitem[{Cialdini et~al.(1990)Cialdini, Reno, and Kallgren}]{cialdini1990}
 Cialdini, R.~B., Reno, R.~R., and Kallgren, C.~A. (1990).
-\newblock A focus theory of normative conduct: Recycling the concept of norms to reduce littering in public places.
-\newblock \emph{Journal of Personality and Social Psychology} 58, 1015--1026.
+\newblock A focus theory of normative conduct: recycling the concept of norms
+  to reduce littering in public places.
+\newblock \emph{J. Pers. Soc. Psychol.} 58, 1015--1026.
 \newblock \doi{10.1037/0022-3514.58.6.1015}
 \bibAnnoteFile{cialdini1990}
 
 \bibitem[{Dickerson and Kemeny(2004)}]{dickerson2004}
 Dickerson, S.~S. and Kemeny, M.~E. (2004).
-\newblock Acute stressors and cortisol responses: A theoretical integration and synthesis of laboratory research.
-\newblock \emph{Psychological Bulletin} 130, 355--391
+\newblock Acute stressors and cortisol responses: a theoretical integration and
+  synthesis of laboratory research.
+\newblock \emph{Psychol. Bull.} 130, 355--391.
+\newblock \doi{10.1037/0033-2909.130.3.355}
 \bibAnnoteFile{dickerson2004}
 
 \bibitem[{Fox and Bailenson(2009)}]{fox2009}
 Fox, J. and Bailenson, J.~N. (2009).
-\newblock Virtual self-modeling: The effects of vicarious reinforcement and identification on exercise behaviors.
-\newblock \emph{Media Psychology}
+\newblock Virtual self-modeling: the effects of vicarious reinforcement and
+  identification on exercise behaviors.
+\newblock \emph{Media Psychol.} 12, 1--25.
+\newblock \doi{10.1080/15213260802669474}
 \bibAnnoteFile{fox2009}
 
-\bibitem[{Geshi et~al.(2023)Geshi, Yoshino, and Oshio}]{geshi2023}
-Geshi, T., Yoshino, S., and Oshio, A. (2023).
-\newblock Development of the japanese version of the courage measure using item response theory.
-\newblock \emph{The Japanese Journal of Psychology}
-\bibAnnoteFile{geshi2023}
-
-\bibitem[{Hanoch et~al.(2021)}]{hanoch2021}
-Hanoch, Y. et~al. (2021).
-\newblock Human-robot interaction and risk-taking behavior.
-\newblock \emph{Cyberpsychology, Behavior, and Social Networking}
+\bibitem[{Hanoch et~al.(2021)Hanoch, Arvizzigno, {Hernandez Garc{\'i}a},
+  Denham, Belpaeme, and Gummerum}]{hanoch2021}
+Hanoch, Y., Arvizzigno, F., {Hernandez Garc{\'i}a}, D., Denham, S., Belpaeme,
+  T., and Gummerum, M. (2021).
+\newblock The robot made me do it: human--robot interaction and risk-taking
+  behavior.
+\newblock \emph{Cyberpsychol. Behav. Soc. Netw.} 24, 337--342.
+\newblock \doi{10.1089/cyber.2020.0148}
 \bibAnnoteFile{hanoch2021}
 
-\bibitem[{Higashino et~al.(2023)Higashino, Kimoto, Iio, Shimohara, and Shiomi}]{higashino2023}
+\bibitem[{Higashino et~al.(2023)Higashino, Kimoto, Iio, Shimohara, and
+  Shiomi}]{higashino2023}
 Higashino, K., Kimoto, M., Iio, T., Shimohara, K., and Shiomi, M. (2023).
-\newblock Is politeness better than impoliteness? comparisons of robot's encouragement effects toward performance, moods, and propagation.
-\newblock \emph{International Journal of Social Robotics}
+\newblock Is politeness better than impoliteness? comparisons of robot's
+  encouragement effects toward performance, moods, and propagation.
+\newblock \emph{Int. J. Soc. Robot.} 15, 717--729.
+\newblock \doi{10.1007/s12369-023-00971-9}
 \bibAnnoteFile{higashino2023}
 
 \bibitem[{Howard et~al.(2017)Howard, Farr, Grandey, and Gutworth}]{howard2017}
 Howard, M.~C., Farr, J.~L., Grandey, A.~A., and Gutworth, M.~B. (2017).
-\newblock The creation of the workplace social courage scale.
-\newblock \emph{Journal of Business and Psychology}
+\newblock The creation of the {Workplace Social Courage Scale (WSCS)}: an
+  investigation of internal consistency, psychometric properties, validity, and
+  utility.
+\newblock \emph{J. Bus. Psychol.} 32, 673--690.
+\newblock \doi{10.1007/s10869-016-9463-8}
 \bibAnnoteFile{howard2017}
 
 \bibitem[{Keizer et~al.(2008)Keizer, Lindenberg, and Steg}]{keizer2008}
@@ -101,142 +123,186 @@ Keizer, K., Lindenberg, S., and Steg, L. (2008).
 
 \bibitem[{Leonard et~al.(2017)Leonard, Lee, and Schulz}]{leonard2017}
 Leonard, J.~A., Lee, Y., and Schulz, L.~E. (2017).
-\newblock Infants make more attempts to achieve a goal when they see adults persist.
-\newblock \emph{Science} 357, 1290--1294
+\newblock Infants make more attempts to achieve a goal when they see adults
+  persist.
+\newblock \emph{Science} 357, 1290--1294.
+\newblock \doi{10.1126/science.aan2317}
 \bibAnnoteFile{leonard2017}
 
 \bibitem[{Lewin(1931)}]{lewin1931}
 Lewin, K. (1931).
 \newblock Environmental forces in child behavior and development.
-\newblock \emph{A Handbook of Child Psychology}
+\newblock In \emph{A Handbook of Child Psychology}, ed. C.~Murchison
+  (Worcester, MA: Clark University Press). 94--127.
+\newblock \doi{10.1037/13524-004}
 \bibAnnoteFile{lewin1931}
 
-\bibitem[{Lucas et~al.(2006)Lucas, Alexander, Firestone, and Baltes}]{lucas2006}
+\bibitem[{Lucas et~al.(2006)Lucas, Alexander, Firestone, and
+  Baltes}]{lucas2006}
 Lucas, T., Alexander, S., Firestone, I.~J., and Baltes, B.~B. (2006).
-\newblock Self-efficacy and independence from social influence: Discovery of an efficacy-difficulty effect.
-\newblock \emph{Social Influence}
+\newblock Self-efficacy and independence from social influence: discovery of an
+  efficacy--difficulty effect.
+\newblock \emph{Soc. Influ.} 1, 58--80.
+\newblock \doi{10.1080/15534510500291662}
 \bibAnnoteFile{lucas2006}
 
 \bibitem[{Miller(1944)}]{miller1944}
 Miller, N.~E. (1944).
 \newblock Experimental studies of conflict.
-\newblock \emph{Personality and the Behavior Disorders}
+\newblock In \emph{Personality and the Behavior Disorders: A Handbook Based on
+  Experimental and Clinical Research}, ed. J.~M. Hunt (New York, NY: The Ronald
+  Press Company), vol.~1. 431--465
 \bibAnnoteFile{miller1944}
 
 \bibitem[{Milliken et~al.(2003)Milliken, Morrison, and Hewlin}]{milliken2003}
 Milliken, F.~J., Morrison, E.~W., and Hewlin, P.~F. (2003).
-\newblock An exploratory study of employee silence: Issues that employees don't communicate upward and why.
-\newblock \emph{Journal of Management Studies} 40, 1453--1476
+\newblock An exploratory study of employee silence: issues that employees don't
+  communicate upward and why.
+\newblock \emph{J. Manag. Stud.} 40, 1453--1476.
+\newblock \doi{10.1111/1467-6486.00387}
 \bibAnnoteFile{milliken2003}
 
-\bibitem[{Nitada et~al.(2021)Nitada, Yoshikawa, Meneses, and Ishiguro}]{nitada2021}
+\bibitem[{Nitada et~al.(2021)Nitada, Yoshikawa, Meneses, and
+  Ishiguro}]{nitada2021}
 Nitada, Y., Yoshikawa, Y., Meneses, A., and Ishiguro, H. (2021).
-\newblock Enhancing sense of attention from a communication robot by drawing the user's face on its thought bubble in the video conferencing system.
-\newblock \emph{Frontiers in Robotics and AI}
+\newblock Enhancing sense of attention from a communication robot by drawing
+  the user's face on its thought bubble in the video conferencing system.
+\newblock In \emph{Proceedings of the 9th International Conference on
+  Human-Agent Interaction (HAI '21)} (New York, NY: Association for Computing
+  Machinery), 443--447.
+\newblock \doi{10.1145/3472307.3484689}
 \bibAnnoteFile{nitada2021}
 
 \bibitem[{Norton and Weiss(2009)}]{norton2009}
 Norton, P.~J. and Weiss, B.~J. (2009).
-\newblock The role of courage on behavioral approach in a fear-eliciting situation: A proof-of-concept pilot study.
-\newblock \emph{Journal of Anxiety Disorders}
+\newblock The role of courage on behavioral approach in a fear-eliciting
+  situation: a proof-of-concept pilot study.
+\newblock \emph{J. Anxiety Disord.} 23, 212--217.
+\newblock \doi{10.1016/j.janxdis.2008.07.002}
 \bibAnnoteFile{norton2009}
 
-\bibitem[{Omichi et~al.(2026)Omichi, Takahashi, Ban, Yoshikawa, Ishiguro, Ishizuka et~al.}]{omichi2026}
-Omichi, M., Takahashi, H., Ban, M., Yoshikawa, Y., Ishiguro, H., Ishizuka, H., et~al. (2026).
-\newblock Development and preliminary validation of an empathetic and explaining robot interface for proactive indoor environment control.
-\newblock In \emph{ICSR+AI 2025} (Springer Nature Singapore), vol. 16133 of \emph{Lecture Notes in Artificial Intelligence}, 516--543.
+\bibitem[{Omichi et~al.(2026)Omichi, Takahashi, Ban, Yoshikawa, Ishiguro,
+  Ishizuka et~al.}]{omichi2026}
+Omichi, M., Takahashi, H., Ban, M., Yoshikawa, Y., Ishiguro, H., Ishizuka, H.,
+  et~al. (2026).
+\newblock Development and preliminary validation of an empathetic and
+  explaining robot interface for proactive indoor environment control.
+\newblock In \emph{Social Robotics + AI}, eds. M.~Staffa, J.-J. Cabibihan,
+  B.~Siciliano, S.~S. Ge, L.~Bodenhagen, A.~Tapus, et~al. (Singapore: Springer
+  Nature Singapore), vol. 16133 of \emph{Lecture Notes in Artificial
+  Intelligence}. 516--543.
 \newblock \doi{10.1007/978-981-95-2398-6_35}
 \bibAnnoteFile{omichi2026}
 
 \bibitem[{Pury et~al.(2007)Pury, Kowalski, and Spearman}]{pury2007}
 Pury, C. L.~S., Kowalski, R.~M., and Spearman, J. (2007).
 \newblock Distinctions between general and personal courage.
-\newblock \emph{The Journal of Positive Psychology}
+\newblock \emph{J. Posit. Psychol.} 2, 99--114.
+\newblock \doi{10.1080/17439760701237962}
 \bibAnnoteFile{pury2007}
 
 \bibitem[{Rachman(1984)}]{rachman1984}
 Rachman, S. (1984).
 \newblock Fear and courage.
-\newblock \emph{Behavior Therapy} 15, 109--120
+\newblock \emph{Behav. Ther.} 15, 109--120.
+\newblock \doi{10.1016/S0005-7894(84)80045-3}
 \bibAnnoteFile{rachman1984}
 
-\bibitem[{Rosenberg-Kima et~al.(2008)Rosenberg-Kima, Baylor, Plant, and Doerr}]{rosenberg2008}
+\bibitem[{Rosenberg-Kima et~al.(2008)Rosenberg-Kima, Baylor, Plant, and
+  Doerr}]{rosenberg2008}
 Rosenberg-Kima, R.~B., Baylor, A.~L., Plant, E.~A., and Doerr, C.~E. (2008).
-\newblock Interface agents as social models for female students.
-\newblock \emph{Computers in Human Behavior}
+\newblock Interface agents as social models for female students: the effects of
+  agent visual presence and appearance on female students' attitudes and
+  beliefs.
+\newblock \emph{Comput. Hum. Behav.} 24, 2741--2756.
+\newblock \doi{10.1016/j.chb.2008.03.017}
 \bibAnnoteFile{rosenberg2008}
 
-\bibitem[{Schultz et~al.(2013)Schultz, Bator, Large, Bruni, and Tabanico}]{schultz2013}
-Schultz, P.~W., Bator, R.~J., Large, L.~B., Bruni, C.~M., and Tabanico, J.~J. (2013).
-\newblock Littering in context: Personal and environmental predictors of littering behavior.
-\newblock \emph{Environment and Behavior} 45, 35--59.
+\bibitem[{Schultz et~al.(2013)Schultz, Bator, Large, Bruni, and
+  Tabanico}]{schultz2013}
+Schultz, P.~W., Bator, R.~J., Large, L.~B., Bruni, C.~M., and Tabanico, J.~J.
+  (2013).
+\newblock Littering in context: personal and environmental predictors of
+  littering behavior.
+\newblock \emph{Environ. Behav.} 45, 35--59.
 \newblock \doi{10.1177/0013916511412179}
 \bibAnnoteFile{schultz2013}
 
 \bibitem[{Schunk and Hanson(1985)}]{schunk1985}
 Schunk, D.~H. and Hanson, A.~R. (1985).
-\newblock Peer models: Influence on children's self-efficacy and achievement.
-\newblock \emph{Journal of Educational Psychology} 77, 313--322
+\newblock Peer models: influence on children's self-efficacy and achievement.
+\newblock \emph{J. Educ. Psychol.} 77, 313--322.
+\newblock \doi{10.1037/0022-0663.77.3.313}
 \bibAnnoteFile{schunk1985}
 
 \bibitem[{Schunk and Hanson(1989)}]{schunk1989}
 Schunk, D.~H. and Hanson, A.~R. (1989).
-\newblock Influence of peer-model attributes on children's beliefs and learning.
-\newblock \emph{Journal of Educational Psychology}
+\newblock Influence of peer-model attributes on children's beliefs and
+  learning.
+\newblock \emph{J. Educ. Psychol.} 81, 431--434.
+\newblock \doi{10.1037/0022-0663.81.3.431}
 \bibAnnoteFile{schunk1989}
 
 \bibitem[{Schunk et~al.(1987)Schunk, Hanson, and Cox}]{schunk1987}
 Schunk, D.~H., Hanson, A.~R., and Cox, P.~D. (1987).
 \newblock Peer-model attributes and children's achievement behaviors.
-\newblock \emph{Journal of Educational Psychology}
+\newblock \emph{J. Educ. Psychol.} 79, 54--61.
+\newblock \doi{10.1037/0022-0663.79.1.54}
 \bibAnnoteFile{schunk1987}
 
-\bibitem[{Toribio-Fl{\'o}rez et~al.(2020)}]{toribio2020}
-Toribio-Fl{\'o}rez, D. et~al. (2020).
-\newblock Ambivalence expression and social validation.
-\newblock \emph{Social Psychology}
-\bibAnnoteFile{toribio2020}
-
-\bibitem[{Venema et~al.(2020)Venema, Kroese, Benjamins, and de~Ridder}]{venema2020}
-Venema, T. A.~G., Kroese, F.~M., Benjamins, J.~S., and de~Ridder, D. T.~D. (2020).
-\newblock When in doubt, follow the crowd? responsiveness to social proof nudges in the absence of clear preferences.
-\newblock \emph{Frontiers in Psychology}
-\bibAnnoteFile{venema2020}
+\bibitem[{Shimotsukasa et~al.(2023)Shimotsukasa, Yoshino, and
+  Oshio}]{shimotsukasa2023}
+Shimotsukasa, T., Yoshino, S., and Oshio, A. (2023).
+\newblock Development and validation of the {Japanese} version of {Courage
+  Measure (CM-J)}: scale development using item response theory.
+\newblock \emph{Jpn. J. Psychol.} 94, 43--53.
+\newblock \doi{10.4992/jjpsy.94.21234}
+\bibAnnoteFile{shimotsukasa2023}
 
 \bibitem[{Vogel et~al.(2007)Vogel, Wade, and Hackler}]{vogel2007}
 Vogel, D.~L., Wade, N.~G., and Hackler, A.~H. (2007).
-\newblock Perceived public stigma and the willingness to seek counseling: The mediating roles of self-stigma and attitudes toward counseling.
-\newblock \emph{Journal of Counseling Psychology} 54, 40--50
+\newblock Perceived public stigma and the willingness to seek counseling: the
+  mediating roles of self-stigma and attitudes toward counseling.
+\newblock \emph{J. Couns. Psychol.} 54, 40--50.
+\newblock \doi{10.1037/0022-0167.54.1.40}
 \bibAnnoteFile{vogel2007}
 
 \bibitem[{Watson and Friend(1969)}]{watson1969}
 Watson, D. and Friend, R. (1969).
 \newblock Measurement of social-evaluative anxiety.
-\newblock \emph{Journal of Consulting and Clinical Psychology}
+\newblock \emph{J. Consult. Clin. Psychol.} 33, 448--457.
+\newblock \doi{10.1037/h0027806}
 \bibAnnoteFile{watson1969}
 
-\bibitem[{Weiss et~al.(1998)}]{weiss1998}
-Weiss, M.~R. et~al. (1998).
-\newblock Observational learning and the fearful child: Influence of peer models on swimming skill performance and psychological responses.
-\newblock \emph{Research Quarterly for Exercise and Sport}
+\bibitem[{Weiss et~al.(1998)Weiss, McCullagh, Smith, and Berlant}]{weiss1998}
+Weiss, M.~R., McCullagh, P., Smith, A.~L., and Berlant, A.~R. (1998).
+\newblock Observational learning and the fearful child: influence of peer
+  models on swimming skill performance and psychological responses.
+\newblock \emph{Res. Q. Exerc. Sport} 69, 380--394.
+\newblock \doi{10.1080/02701367.1998.10607712}
 \bibAnnoteFile{weiss1998}
 
 \bibitem[{Woodard and Pury(2007)}]{woodard2007}
 Woodard, C.~R. and Pury, C. L.~S. (2007).
-\newblock The construct of courage: Categorization and measurement.
-\newblock \emph{Consulting Psychology Journal: Practice and Research}
+\newblock The construct of courage: categorization and measurement.
+\newblock \emph{Consult. Psychol. J. Pract. Res.} 59, 135--147.
+\newblock \doi{10.1037/1065-9293.59.2.135}
 \bibAnnoteFile{woodard2007}
 
 \bibitem[{Xu(2023)}]{xu2023}
 Xu, K. (2023).
-\newblock A mini imitation game: How individuals model social robots via behavioral outcomes and social roles.
-\newblock \emph{Computers in Human Behavior}
+\newblock A mini imitation game: how individuals model social robots via
+  behavioral outcomes and social roles.
+\newblock \emph{Telemat. Inform.} 78, 101950.
+\newblock \doi{10.1016/j.tele.2023.101950}
 \bibAnnoteFile{xu2023}
 
-\bibitem[{Zonca et~al.(2023)Zonca, Folso, and Sciutti}]{zonca2023}
-Zonca, J., Folso, A., and Sciutti, A. (2023).
-\newblock Social influence under uncertainty in interaction with peers, robots and computers.
-\newblock \emph{International Journal of Social Robotics}
+\bibitem[{Zonca et~al.(2023)Zonca, Fols{\o}, and Sciutti}]{zonca2023}
+Zonca, J., Fols{\o}, A., and Sciutti, A. (2023).
+\newblock Social influence under uncertainty in interaction with peers, robots
+  and computers.
+\newblock \emph{Int. J. Soc. Robot.} 15, 249--268.
+\newblock \doi{10.1007/s12369-022-00959-x}
 \bibAnnoteFile{zonca2023}
 
 \end{thebibliography}
