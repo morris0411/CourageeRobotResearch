@@ -1,18 +1,18 @@
 # Fdb version 4
-["bibtex frontiers"] 1785491156.68892 "frontiers.aux" "frontiers.bbl" "frontiers" 1785491160.83204 0
+["bibtex frontiers"] 1785665215.66263 "frontiers.aux" "frontiers.bbl" "frontiers" 1785665219.98508 0
   "./Frontiers-Harvard.bst" 1781055195 31641 1341c127ed7af43085eb64600f38bbe5 ""
-  "./references_japanese.bib" 1785491112 13672 82b71a11875b1c3d8060ddb806053a95 ""
-  "frontiers.aux" 1785491158 13530 93f8ae557b38469f35c70cf37a737b1e "xelatex"
+  "./references_japanese.bib" 1785664507 13326 e1ac218071e192b4fc7f1ae14d845439 ""
+  "frontiers.aux" 1785665217 13473 08ffb990c76dc02a26e2bd85fdbdab85 "xelatex"
   (generated)
   "frontiers.bbl"
   "frontiers.blg"
   (rewritten before read)
-["xdvipdfmx"] 1785491158.77018 "frontiers.xdv" "frontiers.pdf" "frontiers" 1785491160.83526 0
-  "frontiers.xdv" 1785491158 748472 664db29ce92f3e436573b065033ebaeb "xelatex"
+["xdvipdfmx"] 1785665217.8539 "frontiers.xdv" "frontiers.pdf" "frontiers" 1785665219.98927 0
+  "frontiers.xdv" 1785665217 777044 c72a5857efecdae421f4aecf7b4ee5ac "xelatex"
   (generated)
   "frontiers.pdf"
   (rewritten before read)
-["xelatex"] 1785491157.03009 "frontiers.tex" "frontiers.xdv" "frontiers" 1785491160.83224 0
+["xelatex"] 1785665216.00653 "frontiers.tex" "frontiers.xdv" "frontiers" 1785665219.98535 0
   "FrontiersinHarvard.cls" 1781070505 28683 481ad81cc8e690e52eb5d9a064e3ee22 ""
   "c:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1781058385 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1781063962 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
@@ -133,10 +133,10 @@
   "figures/fig4_study1_conflict.png" 1782813507 42224 21ac0850ade9e1c4d480d85c853235e5 ""
   "figures/fig5_study2_courage.png" 1782813507 39847 77a1b87ef1a6f5dd6541ec91b0720c1b ""
   "figures/fig_study1_stimulus_flow.png" 1785414418 766048 1bb35ef4bc8c81f581b04b2a0a62afa7 ""
-  "frontiers.aux" 1785491158 13530 93f8ae557b38469f35c70cf37a737b1e "xelatex"
-  "frontiers.bbl" 1785491157 13218 50903ee3cebd00087df6b655ad2a3d28 "bibtex frontiers"
-  "frontiers.out" 1785491158 6127 b152510a1ee268b21d7da1d22204c02c "xelatex"
-  "frontiers.tex" 1785491112 60204 b3a1a9a63ac74b99d064bb9b9493f93c ""
+  "frontiers.aux" 1785665217 13473 08ffb990c76dc02a26e2bd85fdbdab85 "xelatex"
+  "frontiers.bbl" 1785665215 12828 57a0b9c352a3e314fb1fd04b84ea1f02 "bibtex frontiers"
+  "frontiers.out" 1785665217 6127 b152510a1ee268b21d7da1d22204c02c "xelatex"
+  "frontiers.tex" 1785665205 63110 df8f3e0a6d6ab652761a5017f9357efa ""
   "logo1.pdf" 1781055195 27591 c9c324700d80d9ea6d7bfd29ab6a68a1 ""
   (generated)
   "frontiers.aux"

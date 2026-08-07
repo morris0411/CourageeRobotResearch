@@ -1,4 +1,4 @@
-\begin{thebibliography}{35}
+\begin{thebibliography}{34}
 \providecommand{\natexlab}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
@@ -11,6 +11,15 @@
 \providecommand{\bibAnnote}[2]{%
   \begin{quotation}\noindent\textsc{Key:} #1\\
   \textsc{Annotation:}\ #2\end{quotation}}
+
+\bibitem[{Bach et~al.(2014)Bach, Guitart-Masip, Packard, Mir{\'o}, Falip,
+  Fuentemilla et~al.}]{bach2014}
+Bach, D.~R., Guitart-Masip, M., Packard, P.~A., Mir{\'o}, J., Falip, M.,
+  Fuentemilla, L., et~al. (2014).
+\newblock Human hippocampus arbitrates approach--avoidance conflict.
+\newblock \emph{Curr. Biol.} 24, 541--547.
+\newblock \doi{10.1016/j.cub.2014.01.046}
+\bibAnnoteFile{bach2014}
 
 \bibitem[{Balafoutas et~al.(2014)Balafoutas, Nikiforakis, and
   Rockenbach}]{balafoutas2014}
@@ -85,16 +94,6 @@ Fox, J. and Bailenson, J.~N. (2009).
 \newblock \emph{Media Psychol.} 12, 1--25.
 \newblock \doi{10.1080/15213260802669474}
 \bibAnnoteFile{fox2009}
-
-\bibitem[{Hanoch et~al.(2021)Hanoch, Arvizzigno, {Hernandez Garc{\'i}a},
-  Denham, Belpaeme, and Gummerum}]{hanoch2021}
-Hanoch, Y., Arvizzigno, F., {Hernandez Garc{\'i}a}, D., Denham, S., Belpaeme,
-  T., and Gummerum, M. (2021).
-\newblock The robot made me do it: human--robot interaction and risk-taking
-  behavior.
-\newblock \emph{Cyberpsychol. Behav. Soc. Netw.} 24, 337--342.
-\newblock \doi{10.1089/cyber.2020.0148}
-\bibAnnoteFile{hanoch2021}
 
 \bibitem[{Higashino et~al.(2023)Higashino, Kimoto, Iio, Shimohara, and
   Shiomi}]{higashino2023}
@@ -296,13 +295,5 @@ Xu, K. (2023).
 \newblock \emph{Telemat. Inform.} 78, 101950.
 \newblock \doi{10.1016/j.tele.2023.101950}
 \bibAnnoteFile{xu2023}
-
-\bibitem[{Zonca et~al.(2023)Zonca, Fols{\o}, and Sciutti}]{zonca2023}
-Zonca, J., Fols{\o}, A., and Sciutti, A. (2023).
-\newblock Social influence under uncertainty in interaction with peers, robots
-  and computers.
-\newblock \emph{Int. J. Soc. Robot.} 15, 249--268.
-\newblock \doi{10.1007/s12369-022-00959-x}
-\bibAnnoteFile{zonca2023}
 
 \end{thebibliography}

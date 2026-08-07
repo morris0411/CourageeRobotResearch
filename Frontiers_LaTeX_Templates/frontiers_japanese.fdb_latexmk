@@ -1,18 +1,18 @@
 # Fdb version 4
-["bibtex frontiers_japanese"] 1785491153.08359 "frontiers_japanese.aux" "frontiers_japanese.bbl" "frontiers_japanese" 1785491158.39539 0
+["bibtex frontiers_japanese"] 1785665216.00455 "frontiers_japanese.aux" "frontiers_japanese.bbl" "frontiers_japanese" 1785665221.50135 0
   "./Frontiers-Harvard.bst" 1781055195 31641 1341c127ed7af43085eb64600f38bbe5 ""
-  "./references_japanese.bib" 1785491112 13672 82b71a11875b1c3d8060ddb806053a95 ""
-  "frontiers_japanese.aux" 1785491154 13318 a632c44eff5594e0f25d7175ba6f003e "xelatex"
+  "./references_japanese.bib" 1785664507 13326 e1ac218071e192b4fc7f1ae14d845439 ""
+  "frontiers_japanese.aux" 1785665217 13280 dfb04555b58760c23e09c3d47ca56c1e "xelatex"
   (generated)
   "frontiers_japanese.bbl"
   "frontiers_japanese.blg"
   (rewritten before read)
-["xdvipdfmx"] 1785491155.47857 "frontiers_japanese.xdv" "frontiers_japanese.pdf" "frontiers_japanese" 1785491158.39922 0
-  "frontiers_japanese.xdv" 1785491154 529232 80e365cbf6896c73f7fc56e462b537c4 "xelatex"
+["xdvipdfmx"] 1785665218.56611 "frontiers_japanese.xdv" "frontiers_japanese.pdf" "frontiers_japanese" 1785665221.50598 0
+  "frontiers_japanese.xdv" 1785665217 545832 5c4caa42e4ca77d39934af490bb7f510 "xelatex"
   (generated)
   "frontiers_japanese.pdf"
   (rewritten before read)
-["xelatex"] 1785491153.42282 "frontiers_japanese.tex" "frontiers_japanese.xdv" "frontiers_japanese" 1785491158.39558 0
+["xelatex"] 1785665216.36723 "frontiers_japanese.tex" "frontiers_japanese.xdv" "frontiers_japanese" 1785665221.50165 0
   "FrontiersinHarvard.cls" 1781070505 28683 481ad81cc8e690e52eb5d9a064e3ee22 ""
   "c:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1781058385 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1781063962 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
@@ -145,10 +145,10 @@
   "figures/fig5_study2_courage.png" 1782813507 39847 77a1b87ef1a6f5dd6541ec91b0720c1b ""
   "figures/fig_study1_stimulus_flow.png" 1785414418 766048 1bb35ef4bc8c81f581b04b2a0a62afa7 ""
   "figures/fig_study2_stimulus_flow.png" 1782813507 615041 842e8f97b0bb3307e675b925d1a7c53a ""
-  "frontiers_japanese.aux" 1785491154 13318 a632c44eff5594e0f25d7175ba6f003e "xelatex"
-  "frontiers_japanese.bbl" 1785491153 13218 50903ee3cebd00087df6b655ad2a3d28 "bibtex frontiers_japanese"
-  "frontiers_japanese.out" 1785491154 4331 713ba40bc0d9b35bcf6b5adf7dee1bee "xelatex"
-  "frontiers_japanese.tex" 1785491111 61006 e4dc6c6d464eb76ecf624f79d0f270f4 ""
+  "frontiers_japanese.aux" 1785665217 13280 dfb04555b58760c23e09c3d47ca56c1e "xelatex"
+  "frontiers_japanese.bbl" 1785665216 12828 57a0b9c352a3e314fb1fd04b84ea1f02 "bibtex frontiers_japanese"
+  "frontiers_japanese.out" 1785665217 4331 713ba40bc0d9b35bcf6b5adf7dee1bee "xelatex"
+  "frontiers_japanese.tex" 1785665204 63634 07ff8ac25263cf3ed58e7bb6bec5bf7f ""
   "logo1.pdf" 1781055195 27591 c9c324700d80d9ea6d7bfd29ab6a68a1 ""
   (generated)
   "frontiers_japanese.aux"
