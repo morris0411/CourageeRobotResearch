@@ -5,7 +5,7 @@ from pathlib import Path
 
 from PIL import Image
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 FIGURES_DIR = ROOT / "Frontiers_LaTeX_Templates" / "figures"
 
 # Source images (do NOT resize except to fit columns)

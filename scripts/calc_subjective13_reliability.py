@@ -10,9 +10,10 @@ from openpyxl.utils import get_column_letter
 from scipy.stats import pearsonr
 
 
-ROOT = Path(__file__).resolve().parent / "分析"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+ROOT = PROJECT_ROOT / "分析"
 MAPPING_PATH = ROOT / "column_mapping_clean_data.csv"
-EXCEL_PATH = Path(__file__).resolve().parent / "データ" / "きれいデータ.xlsx"
+EXCEL_PATH = PROJECT_ROOT / "データ" / "きれいデータ.xlsx"
 OUT_DIR = ROOT / "内的一貫性"
 OUT_CSV = OUT_DIR / "subjective_item13_reliability.csv"
 OUT_MD = OUT_DIR / "subjective_item13_reliability.md"

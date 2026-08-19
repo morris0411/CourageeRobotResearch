@@ -14,7 +14,7 @@ from docx.shared import Inches, Pt
 from docx.text.paragraph import Paragraph
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 DOCX_PATH = ROOT / "Manuscript_Edited_Clean.docx"
 BACKUP_PATH = ROOT / "Manuscript_Edited_Clean_before_action_figure.docx"
 TEMP_PATH = ROOT / "Manuscript_Edited_Clean.__tmp_action_figure.docx"

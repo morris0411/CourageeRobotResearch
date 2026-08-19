@@ -11,7 +11,7 @@ from docx.text.paragraph import Paragraph
 from docx.text.run import Run
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 SOURCE = ROOT / "Manuscript_Edited_Clean.docx"
 DESTINATION = ROOT / "Manuscript_Edited_Clean.md"
 
