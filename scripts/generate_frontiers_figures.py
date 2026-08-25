@@ -1,8 +1,7 @@
-"""Regenerate Frontiers figures without embedded titles."""
+"""Regenerate Frontiers figures with 300 DPI directly from experimental data."""
 from __future__ import annotations
 
 from pathlib import Path
-
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -11,10 +10,15 @@ import numpy as np
 import pandas as pd
 from scipy import stats
 
-ROOT = Path(__file__).resolve().parent.parent
-FIGURES_DIR = ROOT / "Frontiers_LaTeX_Templates" / "figures"
+ROOT = Path(r"c:\研究\CourageeRobotResearch")
 EXP1_DIR = ROOT / "実験１結果" / "results_scene1"
 STUDY2_DIR = ROOT / "分析" / "ANOVA" / "層別ANOVA" / "事前勇気4未満vs4以上_3要因ANOVA"
+
+OUTPUT_DIRS = [
+    ROOT / "Frontiers_LaTeX_Templates" / "figures",
+    ROOT / "image",
+    ROOT / "Frontiers_Figure_Uploads"
+]
 
 COLORS_SEQ_SIM = {
     "Sequential": "#1f4e79",
@@ -22,7 +26,6 @@ COLORS_SEQ_SIM = {
 }
 JP_CONFLICT = {"NoConflict": "No Conflict", "Conflict": "Conflict"}
 JP_PRES = {"Sequential": "Sequential", "Simultaneous": "Simultaneous"}
-
 COLORS_CONFLICT = {"No Conflict": "#1f4e79", "Conflict": "#b03a2e"}
 
 
@@ -30,16 +33,6 @@ def setup_fonts() -> None:
     plt.rcParams["font.family"] = ["Arial", "Helvetica", "sans-serif"]
     plt.rcParams["axes.unicode_minus"] = False
     plt.rcParams["font.size"] = 11
-
-
-def mean_ci(series: pd.Series, alpha: float = 0.05) -> tuple[float, float]:
-    values = series.dropna().to_numpy(dtype=float)
-    mean = values.mean()
-    if len(values) <= 1:
-        return mean, float("nan")
-    se = values.std(ddof=1) / np.sqrt(len(values))
-    t_crit = stats.t.ppf(1 - alpha / 2, df=len(values) - 1)
-    return mean, t_crit * se
 
 
 def p_to_marker(p: float) -> str:
@@ -60,8 +53,17 @@ def add_sig_at_y(ax: plt.Axes, x1: float, x2: float, y: float, marker: str, span
     ax.text((x1 + x2) / 2, y + 0.012 * span, marker, ha="center", va="bottom", fontsize=12)
 
 
+def save_to_all(fig: plt.Figure, filenames: list[str]) -> None:
+    for out_dir in OUTPUT_DIRS:
+        out_dir.mkdir(parents=True, exist_ok=True)
+        for fname in filenames:
+            out_path = out_dir / fname
+            fig.savefig(out_path, dpi=300, bbox_inches="tight")
+            print(f"Saved: {out_path} (300 DPI)")
+
+
 def generate_study1_courage() -> None:
-    """fig3_study1_courage.png — Study 1 courage ratings bar chart, no title."""
+    """Study 1 courage ratings bar chart (Figure 5)."""
     desc = pd.read_csv(EXP1_DIR / "courage_descriptives.csv", encoding="utf-8-sig")
     anova = pd.read_csv(EXP1_DIR / "courage_anova.csv", encoding="utf-8-sig")
 
@@ -104,14 +106,12 @@ def generate_study1_courage() -> None:
               bbox_to_anchor=(1.01, 1.00), frameon=False, fontsize=9, title_fontsize=9)
 
     fig.subplots_adjust(right=0.80, top=0.95)
-    out = FIGURES_DIR / "fig3_study1_courage.png"
-    fig.savefig(out, dpi=220, bbox_inches="tight")
+    save_to_all(fig, ["study1_courage.png", "Figure_5.png", "fig3_study1_courage.png"])
     plt.close(fig)
-    print(f"Saved: {out}")
 
 
 def generate_study1_conflict() -> None:
-    """fig4_study1_conflict.png — Study 1 conflict ratings bar chart, no title."""
+    """Study 1 conflict ratings bar chart (Figure 6)."""
     desc = pd.read_csv(EXP1_DIR / "conflict_descriptives.csv", encoding="utf-8-sig")
     anova = pd.read_csv(EXP1_DIR / "conflict_anova.csv", encoding="utf-8-sig")
     simple = pd.read_csv(EXP1_DIR / "conflict_simple_effects.csv", encoding="utf-8-sig")
@@ -174,18 +174,15 @@ def generate_study1_conflict() -> None:
               bbox_to_anchor=(1.01, 0.96), frameon=False, fontsize=9, title_fontsize=9)
 
     fig.subplots_adjust(right=0.80, top=0.95)
-    out = FIGURES_DIR / "fig4_study1_conflict.png"
-    fig.savefig(out, dpi=220, bbox_inches="tight")
+    save_to_all(fig, ["study1_conflict.png", "Figure_6.png", "fig4_study1_conflict.png"])
     plt.close(fig)
-    print(f"Saved: {out}")
 
 
 def generate_study2_courage() -> None:
-    """fig5_study2_courage.png — Study 2 simple effects courage, no title."""
+    """Study 2 simple effects courage (Figure 7)."""
     courage_df = pd.read_csv(STUDY2_DIR / "simple_effects_courage.csv", encoding="utf-8-sig")
     sub = courage_df[courage_df["target"] == "勇気尺度（post）"].copy()
 
-    group_order = ["事前勇気<4", "事前勇気>=4"]
     x_pairs = {"事前勇気<4": (0.0, 0.7), "事前勇気>=4": (2.0, 2.7)}
     width = 0.48
     y_limits = (1.0, 7.0)
@@ -199,8 +196,11 @@ def generate_study2_courage() -> None:
         y_right = float(row["mean_a"])  # 葛藤あり
         ax.bar(x1, y_left, width=width, color=COLORS_CONFLICT["No Conflict"], zorder=2, edgecolor="black", linewidth=0.8)
         ax.bar(x2, y_right, width=width, color=COLORS_CONFLICT["Conflict"], zorder=2, edgecolor="black", linewidth=0.8)
-        mark = p_to_marker(float(row["p_value"]))
-        if mark:
+        
+        # p-value annotation
+        p_val = float(row["p_value"])
+        if p_val < 0.055:  # dagger or star
+            mark = r"$\dagger$" if (p_val > 0.05 and p_val < 0.06) else p_to_marker(p_val)
             add_sig_at_y(ax, x1, x2, max(y_left, y_right) + 0.10 * span, mark, span)
 
     ax.set_ylim(*y_limits)
@@ -218,10 +218,8 @@ def generate_study2_courage() -> None:
               frameon=False, fontsize=9, title_fontsize=9)
 
     fig.tight_layout()
-    out = FIGURES_DIR / "fig5_study2_courage.png"
-    fig.savefig(out, dpi=220, bbox_inches="tight")
+    save_to_all(fig, ["study2_courage_simple_effects.png", "Figure_7.png", "fig5_study2_courage.png"])
     plt.close(fig)
-    print(f"Saved: {out}")
 
 
 def main() -> None:
@@ -229,6 +227,7 @@ def main() -> None:
     generate_study1_courage()
     generate_study1_conflict()
     generate_study2_courage()
+    print("All statistical figures generated at 300 DPI successfully.")
 
 
 if __name__ == "__main__":

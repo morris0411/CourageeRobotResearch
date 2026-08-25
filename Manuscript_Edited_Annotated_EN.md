@@ -11,8 +11,13 @@
   <div class="legend-item b3"><span class="comment-tag b3">B3</span><strong>H2不支持の扱い</strong><span>予測した3要因交互作用と、予測していなかった2要因交互作用を区別。</span></div>
   <div class="legend-item b4"><span class="comment-tag b4">B4</span><strong>post得点とstate-like変化の区別</strong><span>結果をpost条件間の相対差に限定し、共通preでは条件固有の変化を識別できないことを明記。</span></div>
   <div class="legend-item b5"><span class="comment-tag b5">B5</span><strong>self-efficacyからpersonal courageへの接続</strong><span>構成概念を区別し、理論的な橋渡しと未測定の媒介過程を明示。</span></div>
+  <div class="legend-item b6"><span class="comment-tag b6">B6</span><strong>social modelingの位置づけ</strong><span>social modelingの実証ではなく、その可能性を検討する基礎的HRI研究として整理。</span></div>
+  <div class="legend-item b7"><span class="comment-tag b7">B7</span><strong>achieved powerの削除</strong><span>最終標本数に基づく事後的検定力の記述を削除し、標本数設計と最終Nを簡潔に報告。</span></div>
+  <div class="legend-item b8"><span class="comment-tag b8">B8</span><strong>チェックと除外基準の整理</strong><span>DQSの出典、チェックの目的・回答形式・除外基準、all-correct criterionによる除外を簡潔に明示。</span></div>
+  <div class="legend-item b9"><span class="comment-tag b9">B9</span><strong>Study 2要因計画の交絡</strong><span>葛藤なし条件で動機価数（接近/回避）と最終行動が対応している交絡の限界を明記。</span></div>
+  <div class="legend-item b10"><span class="comment-tag b10">B10</span><strong>CM-Jの特性/状態妥当性の限界</strong><span>CM-Jが特性尺度であり短時間刺激直後の状態的変化の妥当性が未検証である限界を明記。</span></div>
 </div>
-<p class="cover-note"><strong>見方：</strong> T1～T3は高橋先生、B1～B5は伴先生のコメントを示します。伴先生の「ロボット研究としての位置づけ」に関する6点目はT2と重なるため、T2に統合しました。白黒印刷でも対応関係が分かるよう、色に加えてラベルを併記しています。</p>
+<p class="cover-note"><strong>見方：</strong> T1～T3は高橋先生、B1～B10は伴先生のコメントを示します。当初の「ロボット研究としての位置づけ」に関するコメントはT2と重なるためT2に統合し、その後の追加コメントをB6～B10として付番しました。白黒印刷でも対応関係が分かるよう、色に加えてラベルを併記しています。</p>
 </div>
 
 <div class="page-break"></div>
@@ -33,7 +38,16 @@ Yuki Shimizu<sup>1,*</sup>, Midori Ban<sup>2</sup>, Hideyuki Takahashi<sup>3</su
 
 **Number of figures and tables: 7 figures and 5 tables**
 
-**Keywords:** personal courage, approach-avoidance conflict, observational learning, human-robot interaction, internal state, robot expression, social modeling.
+:::::: {.revision-row .primary-b6}
+::: {.manuscript-text}
+<div class="revision-tags"><span class="comment-tag b6">B6</span></div>
+
+**Keywords:** personal courage, approach-avoidance conflict, observational learning, human-robot interaction, internal state, robot expression, observer responses.
+:::
+::: {.margin-notes}
+<div class="comment-card primary-b6"><div class="comment-header"><span class="comment-tag b6">B6</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> Keywordsからsocial modelingを外し、Study 2で実際に扱ったobserver responsesへ変更した。observational learningはH2の理論的枠組みとして残した。</p></div>
+:::
+::::::
 
 ## Abstract
 
@@ -65,14 +79,14 @@ As one way to support this process, this study focuses on observational learning
 :::
 ::::::
 
-:::::: {.revision-row .primary-t2}
+:::::: {.revision-row .primary-b6}
 ::: {.manuscript-text}
-<div class="revision-tags"><span class="comment-tag t2">T2</span> <span class="comment-tag b2">B2</span></div>
+<div class="revision-tags"><span class="comment-tag b6">B6</span> <span class="comment-tag t2">T2</span> <span class="comment-tag b2">B2</span></div>
 
-However, fear, hesitation, and motivational conflict are covert processes that are difficult to observe directly and manipulate systematically when a human serves as the model. A robot can display representations of attributed pre-action motives while its appearance and nonmanipulated aspects of its overt behavior are held relatively constant across conditions, thereby providing a controlled social model. The primary aim of this research was to investigate how a robot’s expression of approach-avoidance conflict—the coexistence of motives to pursue a valued action and to avoid its risks—is perceived and how it relates to observers’ immediate self-evaluations of personal courage. The robot thus served both as a methodological tool for making representations of covert pre-action motives observable and controllable and as an HRI stimulus whose expressions may be associated with different responses across users.
+However, fear, hesitation, and motivational conflict are covert processes that are difficult to observe directly and manipulate systematically when a human serves as the model. A robot can display representations of attributed pre-action motives while its appearance and nonmanipulated aspects of its overt behavior are held relatively constant across conditions, thereby providing a controlled HRI stimulus for examining observer responses to represented pre-action motives. The primary aim of this research was to investigate how a robot’s expression of approach-avoidance conflict—the coexistence of motives to pursue a valued action and to avoid its risks—is perceived and how it relates to observers’ immediate self-evaluations of personal courage. The robot thus served both as a methodological tool for making representations of covert pre-action motives observable and controllable and as an HRI stimulus whose expressions may be associated with different responses across users.
 :::
 ::: {.margin-notes}
-<div class="comment-card primary-t2"><div class="comment-header"><span class="comment-tag t2">T2</span> <span class="comment-tag b2">B2</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> 人間モデルでは捉えにくい行動前動機を、他の振る舞いを統制しながら明示できる点をロボット利用の方法論的価値として示し、ロボット知覚と観察者反応という二つの目的を区別した。</p></div>
+<div class="comment-card primary-b6"><div class="comment-header"><span class="comment-tag b6">B6</span> <span class="comment-tag t2">T2</span> <span class="comment-tag b2">B2</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> 行動前動機を統制して提示できる方法論的価値は維持しつつ、ロボットを「統制されたsocial model」と断定せず、観察者反応を検討するための統制されたHRI刺激として位置づけた。</p></div>
 :::
 ::::::
 
@@ -127,14 +141,14 @@ Models in observational learning are not limited to humans. Studies using artifi
 :::
 ::::::
 
-:::::: {.revision-row .primary-b1}
+:::::: {.revision-row .primary-b6}
 ::: {.manuscript-text}
-<div class="revision-tags"><span class="comment-tag b1">B1</span></div>
+<div class="revision-tags"><span class="comment-tag b6">B6</span> <span class="comment-tag b1">B1</span></div>
 
-These studies indicate that robots and artificial agents can function as social models that influence observers. However, the studies reviewed here targeted attitudes, self-efficacy, movement, and encouragement behavior, not personal courage itself. Within the scope of the literature reviewed in this manuscript, few past reports have explicitly represented a model’s fear or conflict before action and examined how observing that representation relates to observers’ self-evaluations of personal courage. Therefore, using a robot to present representations of pre-action motives related to personal courage extends existing modeling research.
+These studies indicate that robots and artificial agents can function as social models that influence observers. However, the studies reviewed here targeted attitudes, self-efficacy, movement, and encouragement behavior, not personal courage itself. Within the scope of the literature reviewed in this manuscript, few past reports have explicitly represented a model’s fear or conflict before action and examined how observing that representation relates to observers’ self-evaluations of personal courage. Therefore, using a robot to present representations of pre-action motives related to personal courage provides a foundation for examining whether such a robot can function as a social model.
 :::
 ::: {.margin-notes}
-<div class="comment-card primary-b1"><div class="comment-header"><span class="comment-tag b1">B1</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> モデルが実際に内的状態を経験していると読める表現を避け、帰属された行動前動機の表現として記述した。</p></div>
+<div class="comment-card primary-b6"><div class="comment-header"><span class="comment-tag b6">B6</span> <span class="comment-tag b1">B1</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> 内的状態そのものではなく行動前動機の表現として記述し、本研究をsocial modelingの拡張そのものではなく、ロボットがsocial modelとして機能しうるかを検討する基礎として位置づけた。</p></div>
 :::
 ::::::
 
@@ -272,13 +286,31 @@ Conflict ratings were measured using study-specific items to assess the extent t
 
 #### Procedure
 
-Study 1 was conducted via Yahoo! Crowdsourcing. Participants viewed videos from the four conditions, and after each video, completed the robot courage and conflict rating items. The order of video presentation was randomized for each participant. The questionnaire included an item asking about prior participation in the same survey, video-content comprehension checks, and attention-check items.
+:::::: {.revision-row .primary-b8}
+::: {.manuscript-text}
+<div class="revision-tags"><span class="comment-tag b8">B8</span></div>
+
+Study 1 was conducted via Yahoo! Crowdsourcing. Participants viewed videos from the four conditions, and after each video, completed the robot courage and conflict rating items. The order of video presentation was randomized for each participant. The questionnaire also asked about prior participation in the same survey. To assess attentive responding, we used the instructed-response format of the Directed Questions Scale (DQS; Maniaci and Rogge, 2014), which directs respondents to select a specified response option. To assess comprehension of the scenario and the robot’s displayed thoughts and behavior, four three-alternative, single-choice video-comprehension items were used. Reporting previous participation, leaving a check item unanswered, failing to select the instructed response, or failing to meet the all-correct criterion for the four video-comprehension items constituted exclusion.
+:::
+::: {.margin-notes}
+<div class="comment-card primary-b8"><div class="comment-header"><span class="comment-tag b8">B8</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> 再コメントを受け、チェックの説明を目的・回答形式・除外基準に限定した。不注意回答の確認にはDQSの指示回答形式、動画内容の理解確認には3択単一回答式を用いたことを示し、詳細な設問・正答の列挙は削除した。</p></div>
+:::
+::::::
 
 #### Participants
 
 To assess the adequacy of the final sample size, we conducted a sample-size calculation in G*Power 3.1.9.7 (Faul et al., 2009) for the main effect of conflict, which tested the primary hypothesis. Because this main effect was a two-level comparison between the conflict and no-conflict conditions averaged across presentation methods, we selected “ANOVA: Repeated measures, within factors” under F tests and specified one group and two measurements. The “as in Cohen (1988) – recommended” effect-size specification was used, with f(V) = 0.25, α = 0.05, power (1 − β) = 0.80, and nonsphericity correction ε = 1. The resulting required sample size was 128 participants.
 
-A total of 211 responses were recorded. Of these, 26 with missing responses to the check items were excluded. Among the remaining 185 responses, 54 met at least one of the following exclusion criteria: prior participation in the same survey (n = 20), failure to answer the attention-check item correctly (n = 29), or failure to answer at least one of the four video-content comprehension items correctly (n = 28); these criteria overlapped. Thus, 80 responses were excluded in total, yielding a final analytic sample of 131 participants.
+:::::: {.revision-row .primary-b8}
+::: {.manuscript-text}
+<div class="revision-tags"><span class="comment-tag b8">B8</span></div>
+
+A total of 211 responses were recorded. Of these, 26 with missing responses to the check items were excluded. Among the remaining 185 responses, 54 met at least one of the following exclusion criteria: prior participation in the same survey (n = 20), failure of a DQS-format instructed-response check (n = 29), or failure to meet the all-correct criterion for the four video-content comprehension items (n = 28; at least one incorrect response); these criteria overlapped. Thus, 80 responses were excluded in total, yielding a final analytic sample of 131 participants.
+:::
+::: {.margin-notes}
+<div class="comment-card primary-b8"><div class="comment-header"><span class="comment-tag b8">B8</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> Study 1の動画内容理解確認による除外は、4項目すべてへの正答を求めるall-correct criterionを満たさなかったこと、すなわち少なくとも1項目への誤答によることを明記した。</p></div>
+:::
+::::::
 
 Participants were 18–29 years old, with a mean age of 24.26 years (SD = 3.36). The sample included 76 women, 52 men, and 3 participants who selected “do not know/prefer not to answer.”
 
@@ -315,13 +347,40 @@ In Study 1, the robot expressing approach-avoidance conflict was rated as more c
 
 Conflict ratings were also higher in the conflict condition than in the no-conflict condition. This indicates that the presentation of approach and avoidance motives through speech bubbles was perceived by observers as approach-avoidance conflict. Regarding presentation method, no clear difference in courage ratings was found between sequential and simultaneous presentation. By contrast, conflict ratings were higher under simultaneous than sequential presentation in both the conflict and no-conflict conditions. Thus, simultaneous presentation may have made the robot appear generally more conflicted, but the results do not indicate that it strengthened the distinction between the conflict and no-conflict conditions.
 
-In Study 1, we confirmed that a robot expressing approach-avoidance conflict is perceived as courageous and provided evidence supporting the validity of the presentation to be used in Study 2. On this basis, Study 2 used simultaneous presentation, which yielded the highest mean conflict rating within the conflict condition, to examine how observing the robot was associated with observers’ self-evaluations of personal courage.
+:::::: {.revision-row .primary-b6}
+::: {.manuscript-text}
+<div class="revision-tags"><span class="comment-tag b6">B6</span> <span class="comment-tag b2">B2</span></div>
 
-## Study 2: Does Observing a Robot Perceived as Courageous Influence Observers’ Self-Evaluations of Personal Courage?
+In Study 1, the robot in the conflict condition was perceived as more courageous than the robot in the no-conflict condition within the Study 1 stimulus configuration. On this basis, Study 2 used simultaneous presentation, which yielded the highest mean conflict rating within the conflict condition, to examine how observers’ self-evaluations differed across robot-expression conditions.
+:::
+::: {.margin-notes}
+<div class="comment-card primary-b6"><div class="comment-header"><span class="comment-tag b6">B6</span> <span class="comment-tag b2">B2</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> Study 1の勇気知覚結果を同研究の刺激構成の範囲に限定し、Study 2はロボット表現条件後の観察者自己評価差を検討した研究として接続した。</p></div>
+:::
+::::::
+
+:::::: {.revision-row .primary-b6}
+::: {.manuscript-text}
+<div class="revision-tags"><span class="comment-tag b6">B6</span></div>
+
+## Study 2: Personal Courage Self-Evaluations Following Robot Expressions of Conflict and Action
+:::
+::: {.margin-notes}
+<div class="comment-card primary-b6"><div class="comment-header"><span class="comment-tag b6">B6</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> Study 2の見出しから「勇気あると知覚されたロボット」という未測定の前提とinfluenceという表現を外し、葛藤表現と行動の観察後における自己評価を対象として明示した。</p></div>
+:::
+::::::
 
 ### Purpose
 
-In Study 2, we examined how observing the robot presentation shown in Study 1 to be perceived as courageous influenced observers’ self-evaluations of personal courage. We also examined whether this influence differed depending on observers’ preexisting courage tendency.
+:::::: {.revision-row .primary-b6}
+::: {.manuscript-text}
+<div class="revision-tags"><span class="comment-tag b6">B6</span> <span class="comment-tag b2">B2</span></div>
+
+Building on Study 1, Study 2 examined whether observers’ post-stimulus self-evaluations of personal courage differed across the robot’s conflict and action conditions and whether these differences varied with observers’ preexisting courage tendency. Perceived courage of the robot was not reassessed in Study 2.
+:::
+::: {.margin-notes}
+<div class="comment-card primary-b6"><div class="comment-header"><span class="comment-tag b6">B6</span> <span class="comment-tag b2">B2</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> Study 2の目的を各ロボット表現条件後の自己評価差として記述し、Study 2ではロボット自身の勇気知覚を再測定していないことを明記した。</p></div>
+:::
+::::::
 
 Study 2 crossed motivational structure (univalent vs. conflicted) with behavioral outcome (admonition vs. no admonition). This design reflected the view that courage involves both internal difficulty and movement toward valued action (Rachman, 1984; Woodard and Pury, 2007; Norton and Weiss, 2009). Courage has also been described as a sequential process involving situation perception, value evaluation, evaluation of action feasibility, and action decision (Chowkase et al., 2024). In the univalent conditions, motive direction was congruent with the final behavior: approach motives preceded admonition, whereas avoidance motives preceded non-action. In the conflicted conditions, both approach and avoidance motives were presented regardless of the final behavior. The resulting conditions allowed us to compare univalent and conflicted motivational structures within each behavioral outcome and to examine the added role of action when the robot expressed conflict.
 
@@ -354,13 +413,31 @@ Conflict ratings were measured using the same four items as in Study 1. In the a
 
 #### Procedure
 
-Study 2 was conducted via Yahoo! Crowdsourcing using SurveyMonkey. Participants first completed the CM-J before stimulus presentation. The four stimulus-response blocks were then presented in a randomized order for each participant. Each block contained one video followed by the self-evaluation items for the participant’s own personal courage and the robot conflict-rating items. The questionnaire also included an item asking about prior participation in the same survey, video-content comprehension checks, and attention-check items.
+:::::: {.revision-row .primary-b8}
+::: {.manuscript-text}
+<div class="revision-tags"><span class="comment-tag b8">B8</span></div>
+
+Study 2 was conducted via Yahoo! Crowdsourcing using SurveyMonkey. Participants first completed the CM-J before stimulus presentation. The four stimulus-response blocks were then presented in a randomized order for each participant. Each block contained one video followed by the self-evaluation items for the participant’s own personal courage and the robot conflict-rating items. The questionnaire also asked about prior participation in the same survey. To assess attentive responding, we used the DQS instructed-response format (Maniaci and Rogge, 2014). To assess recognition of the condition-specific content presented in each video, a three-alternative, single-choice video-comprehension item was administered after each video. Reporting previous participation, leaving a check item unanswered, failing to select an instructed response, or failing to meet the all-correct criterion for the four video-comprehension items constituted exclusion.
+:::
+::: {.margin-notes}
+<div class="comment-card primary-b8"><div class="comment-header"><span class="comment-tag b8">B8</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> Study 2も、チェックの目的・回答形式・除外基準のみを記載した。不注意回答の確認にはDQSの指示回答形式、条件固有の動画内容の認識確認には3択単一回答式を用いたことを示し、詳細な設問・正答は削除した。</p></div>
+:::
+::::::
 
 #### Participants
 
 To assess the adequacy of the sample size, we conducted a power analysis in G*Power 3.1.9.7 (Faul et al., 2009) for the primary test: the three-way interaction among preexisting courage tendency group, conflict, and action. This interaction was specified as a one-degree-of-freedom effect comparing the within-participant conflict × action contrast between the low- and high-courage groups. Using “ANOVA: Fixed effects, special, main effects and interactions” under F tests, with f = 0.25, α = 0.05, power (1 − β) = 0.80, numerator df = 1, and two groups, the required sample size was 128 participants.
 
-Anticipating missing data and exclusions, we recruited 212 participants. Of these, 13 did not complete the survey and were excluded. Among the remaining 199 participants, 73 met at least one of the following exclusion criteria: prior participation in the same survey (n = 19), failure to answer the attention-check item correctly (n = 31), or failure to answer at least one of the four video-content comprehension items correctly (n = 53); these criteria overlapped. Thus, 86 participants were excluded in total, yielding a final analytic sample of 126. Although the final sample was two participants below the required sample size, the achieved power based on the same assumed effect size and the actual group sizes was 0.792, which was close to the planned value of 0.80.
+:::::: {.revision-row .primary-b7}
+::: {.manuscript-text}
+<div class="revision-tags"><span class="comment-tag b7">B7</span> <span class="comment-tag b8">B8</span></div>
+
+Anticipating missing data and exclusions, we recruited 212 participants. Of these, 13 did not complete the survey and were excluded. Among the remaining 199 participants, 73 met at least one of the following exclusion criteria: prior participation in the same survey (n = 19), failure of a DQS-format instructed-response check (n = 31), or failure to meet the all-correct criterion for the four video-content comprehension items (n = 53; at least one incorrect response); these criteria overlapped. Thus, 86 participants were excluded in total, yielding a final analytic sample of 126.
+:::
+::: {.margin-notes}
+<div class="comment-card primary-b7"><div class="comment-header"><span class="comment-tag b7">B7</span> <span class="comment-tag b8">B8</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> 53名は一般的な刺激理解の問題が確認された参加者ではなく、4項目すべてへの正答を求めるall-correct criterionを満たさなかった参加者（少なくとも1項目に誤答）であることを明記した。併せて、事後的なachieved powerの記述を削除した。</p></div>
+:::
+::::::
 
 Participants were 18–29 years old, with a mean age of 24.11 years (SD = 3.62). The sample included 55 men and 71 women. Based on pre-stimulus CM-J scores, participants with scores below 4 were classified as the low-courage group, and participants with scores of 4 or higher were classified as the high-courage group. The cutoff of 4 corresponded to the midpoint of the 7-point scale and distinguished scores below the scale midpoint from those at or above it. The low-courage group included 69 participants, and the high-courage group included 57 participants.
 
@@ -444,25 +521,25 @@ Taken together, this two-way interaction revealed opposing directions of the con
 
 ## General Discussion
 
-:::::: {.revision-row .primary-t2}
+:::::: {.revision-row .primary-b6}
 ::: {.manuscript-text}
-<div class="revision-tags"><span class="comment-tag t2">T2</span> <span class="comment-tag b1">B1</span></div>
+<div class="revision-tags"><span class="comment-tag b6">B6</span> <span class="comment-tag t2">T2</span> <span class="comment-tag b1">B1</span></div>
 
-The studies of robot-based social modeling reviewed in this manuscript have examined how observable behaviors, social roles, and forms of encouragement affect observers (Xu, 2023; Higashino et al., 2023). In contrast, the present study used a robot as a social model that represented approach and avoidance motives before action in a controlled manner. The manipulation check in Study 1 confirmed that presenting both motives in speech bubbles was perceived as approach-avoidance conflict. This extends the use of speech bubbles from representing attention or mental focus (Nitada et al., 2021) to representing conflicting motives. In Study 1, manipulating these motive representations while holding the robot’s appearance and final behavior constant also enabled comparisons of pre-action cues that are difficult to observe and control directly in human models. Thus, the contribution of this study is not to establish the superiority of robots over other presentation media, but to demonstrate an experimental approach for human–robot interaction research in which representations of pre-action motives can be presented under controlled conditions.
+The studies of robot-based social modeling reviewed in this manuscript have examined how observable behaviors, social roles, and forms of encouragement affect observers (Xu, 2023; Higashino et al., 2023). In contrast, the present study used a robot to represent approach and avoidance motives before action in a controlled manner, as a foundational step toward examining whether such a robot can function as a social model. The manipulation check in Study 1 confirmed that presenting both motives in speech bubbles was perceived as approach-avoidance conflict. This extends the use of speech bubbles from representing attention or mental focus (Nitada et al., 2021) to representing conflicting motives. In Study 1, manipulating these motive representations while holding the robot’s appearance and final behavior constant also enabled comparisons of pre-action cues that are difficult to observe and control directly in human models. Thus, the contribution of this study is not to establish the superiority of robots over other presentation media, but to demonstrate an experimental approach for human–robot interaction research in which representations of pre-action motives can be presented under controlled conditions.
 :::
 ::: {.margin-notes}
-<div class="comment-card primary-t2"><div class="comment-header"><span class="comment-tag t2">T2</span> <span class="comment-tag b1">B1</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> 内的状態の外在化という表現を行動前動機の表現へ変更し、本研究のHRI上の貢献を、ロボットの優位性ではなく、行動前手がかりを統制して提示する方法として整理した。</p></div>
+<div class="comment-card primary-b6"><div class="comment-header"><span class="comment-tag b6">B6</span> <span class="comment-tag t2">T2</span> <span class="comment-tag b1">B1</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> 行動前動機を統制して提示するHRI上の貢献は維持しつつ、本研究でロボットがsocial modelとして機能したとは断定せず、その可能性を検討する基礎的段階として位置づけた。</p></div>
 :::
 ::::::
 
-:::::: {.revision-row .primary-t2}
+:::::: {.revision-row .primary-b6}
 ::: {.manuscript-text}
-<div class="revision-tags"><span class="comment-tag t2">T2</span> <span class="comment-tag b1">B1</span> <span class="comment-tag b2">B2</span> <span class="comment-tag b3">B3</span></div>
+<div class="revision-tags"><span class="comment-tag b6">B6</span> <span class="comment-tag t2">T2</span> <span class="comment-tag b1">B1</span> <span class="comment-tag b2">B2</span> <span class="comment-tag b3">B3</span></div>
 
-Taken together, the two studies indicate that how a robot is perceived and how observing it affects users should be considered separately when designing robot displays of pre-action motives. In Study 1, conflict expression increased ratings of the robot’s courage. In Study 2, the predicted three-way interaction was not supported; instead, an unexpected interaction between preexisting courage tendency group and conflict expression showed opposing directions of the conflict contrast across the two groups. Furthermore, simultaneous presentation made the robot appear more conflicted, but it increased conflict ratings not only in the conflict condition but also in the no-conflict condition. Thus, strengthening the impression of conflict is not the same as making the difference between the conflict and no-conflict conditions clearer. Accordingly, when designing such displays, researchers should separately evaluate how strongly the intended motive structure is perceived, whether it can be distinguished from other structures, and how the expression affects users. Because the same conflict expression may not produce the same outcome for all users, expressions that take users’ prior characteristics into account warrant further investigation. However, because the result for the low-courage group was only marginal and actual behavior was not measured, the present study does not establish the effectiveness of personalized expressions.
+Taken together, the two studies indicate that how a robot is perceived and how users respond after observing it should be considered separately when designing robot displays of pre-action motives. In Study 1, conflict expression increased ratings of the robot’s courage. In Study 2, the predicted three-way interaction was not supported; instead, an unexpected interaction between preexisting courage tendency group and conflict expression showed opposing directions of the conflict contrast across the two groups. Furthermore, simultaneous presentation made the robot appear more conflicted, but it increased conflict ratings not only in the conflict condition but also in the no-conflict condition. Thus, strengthening the impression of conflict is not the same as making the difference between the conflict and no-conflict conditions clearer. Accordingly, when designing such displays, researchers should separately evaluate how strongly the intended motive structure is perceived, whether it can be distinguished from other structures, and how users respond following the expression. Because the same conflict expression may not produce the same outcome for all users, expressions that take users’ prior characteristics into account warrant further investigation. However, because the result for the low-courage group was only marginal and actual behavior was not measured, the present study does not establish the effectiveness of personalized expressions.
 :::
 ::: {.margin-notes}
-<div class="comment-card primary-t2"><div class="comment-header"><span class="comment-tag t2">T2</span> <span class="comment-tag b1">B1</span> <span class="comment-tag b2">B2</span> <span class="comment-tag b3">B3</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> ロボットの知覚と観察者反応を区別し、H2不支持と予想外の交互作用を明示した。また、ロボット表現設計では、葛藤印象の強さ、動機構造の識別性、利用者反応を分けて評価すべきことを示した。</p></div>
+<div class="comment-card primary-b6"><div class="comment-header"><span class="comment-tag b6">B6</span> <span class="comment-tag t2">T2</span> <span class="comment-tag b1">B1</span> <span class="comment-tag b2">B2</span> <span class="comment-tag b3">B3</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> ロボットの知覚と観察後の利用者反応を区別し、因果的な「影響」ではなく条件後の反応として記述した。併せて、H2不支持と予想外の交互作用、表現設計上の含意を整理した。</p></div>
 :::
 ::::::
 
@@ -470,12 +547,23 @@ Taken together, the two studies indicate that how a robot is perceived and how o
 
 :::::: {.revision-row .primary-b4}
 ::: {.manuscript-text}
-<div class="revision-tags"><span class="comment-tag b4">B4</span></div>
+<div class="revision-tags"><span class="comment-tag b4">B4</span> <span class="comment-tag b10">B10</span></div>
 
-This study has several limitations. First, although we measured observers’ self-evaluations of personal courage in this study, we did not measure whether observers actually moved toward valued action. The CM-J measures trait-level individual differences in courage to act despite fear or anxiety (Shimotsukasa et al., 2023). Therefore, the post-stimulus CM-J score in this study should be interpreted not as a change in long-term courage trait but as observers’ self-evaluations of personal courage immediately after stimulus presentation. Moreover, because the pre-stimulus CM-J was administered once before all four videos, it provided a common baseline rather than a condition-specific baseline. The present design therefore cannot isolate stimulus-specific pre-to-post change. Accordingly, the Study 2 findings concern relative differences among post-stimulus self-evaluations across robot-expression conditions and should not be interpreted as evidence that observing conflict expression produced a state-like increase in personal courage self-evaluation from baseline.
+This study has several limitations. First, although we measured observers’ self-evaluations of personal courage in this study, we did not measure whether observers actually moved toward valued action. Furthermore, the CM-J was originally developed and validated as a measure of trait-level individual differences in courage (Shimotsukasa et al., 2023), and its construct validity and sensitivity as a measure of acute, state-like shifts following brief experimental stimuli have not been established. Therefore, post-stimulus CM-J scores should be interpreted cautiously as transient self-evaluations rather than as verified state changes or durable shifts in courage traits. Moreover, because the pre-stimulus CM-J was administered once before all four videos, it provided a common baseline rather than a condition-specific baseline. The present design therefore cannot isolate stimulus-specific pre-to-post change. Accordingly, the Study 2 findings concern relative differences among post-stimulus self-evaluations across robot-expression conditions and should not be interpreted as evidence that observing conflict expression produced a state-like increase in personal courage self-evaluation from baseline.
 :::
 ::: {.margin-notes}
-<div class="comment-card primary-b4"><div class="comment-header"><span class="comment-tag b4">B4</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> 共通する1回のpre測定では条件固有のpre–post変化を切り分けられないため、本研究が示すのは刺激後の勇気自己評価の相対的な条件差であり、葛藤表出の観察によるbaselineからのstate-likeな上昇ではないことをLimitationsに明記した。</p></div>
+<div class="comment-card primary-b4"><div class="comment-header"><span class="comment-tag b4">B4</span> <span class="comment-tag b10">B10</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> CM-Jが元来特性尺度であり短時間刺激後の状態測定妥当性が未検証である点、および共通の事前測定（1回）では条件固有のpre–post変化を切り分けられないため、本研究が示すのは刺激後の勇気自己評価の相対的な条件差であり、葛藤表出の観察によるbaselineからのstate-likeな上昇ではないことをLimitationsに明記した。</p></div>
+:::
+::::::
+
+:::::: {.revision-row .primary-b9}
+::: {.manuscript-text}
+<div class="revision-tags"><span class="comment-tag b9">B9</span></div>
+
+Second, the factorial design of Study 2 involved an inherent confounding between motive valence and final action in the no-conflict conditions. Specifically, to make motive content congruent with the behavioral outcome, the univalent action condition presented only approach motives, whereas the univalent no-action condition presented only avoidance motives. Consequently, the contrast between action and non-action in the no-conflict conditions simultaneously varied the valence of the displayed motives (approach vs. avoidance). While this design ensured natural congruence between expressed thoughts and subsequent behavior, it means that the conflict and action factors cannot be interpreted as entirely orthogonal, independent manipulations of motive presence and behavioral execution.
+:::
+::: {.margin-notes}
+<div class="comment-card primary-b9"><div class="comment-header"><span class="comment-tag b9">B9</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> 研究2の要因計画において、葛藤なし条件では動機の方向（接近/回避）と最終行動（あり/なし）が対応・連動しているため、両要因を完全に直交・独立した操作として解釈することには限界がある旨をLimitationsに追記した。</p></div>
 :::
 ::::::
 
@@ -483,27 +571,27 @@ This study has several limitations. First, although we measured observers’ sel
 ::: {.manuscript-text}
 <div class="revision-tags"><span class="comment-tag b1">B1</span></div>
 
-Second, the Study 1 manipulation check established that participants perceived the displayed motive structure as conflict; it did not establish that the display directly manipulated an internal state of the robot. Moreover, simultaneous presentation increased conflict ratings in both the conflict and no-conflict conditions. The resulting impression may therefore have reflected the presentation format itself, including a general impression of hesitation or conflict, rather than only the intended coexistence of approach and avoidance motives. The findings should accordingly be interpreted as responses to a designed representation of conflict, not as evidence that the robot possessed or experienced conflict.
+Third, the Study 1 manipulation check established that participants perceived the displayed motive structure as conflict; it did not establish that the display directly manipulated an internal state of the robot. Moreover, simultaneous presentation increased conflict ratings in both the conflict and no-conflict conditions. The resulting impression may therefore have reflected the presentation format itself, including a general impression of hesitation or conflict, rather than only the intended coexistence of approach and avoidance motives. The findings should accordingly be interpreted as responses to a designed representation of conflict, not as evidence that the robot possessed or experienced conflict.
 :::
 ::: {.margin-notes}
 <div class="comment-card primary-b1"><div class="comment-header"><span class="comment-tag b1">B1</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> 正式なLimitationsとして、操作チェックが確認したのは知覚された葛藤であってロボットの内的状態の直接操作ではないこと、提示形式自体が一般的なためらい・葛藤印象を生じさせた可能性を追記した。</p></div>
 :::
 ::::::
 
-:::::: {.revision-row .primary-b5}
+:::::: {.revision-row .primary-b6}
 ::: {.manuscript-text}
-<div class="revision-tags"><span class="comment-tag b5">B5</span></div>
+<div class="revision-tags"><span class="comment-tag b6">B6</span> <span class="comment-tag b5">B5</span></div>
 
-Third, the rationale for H2 extended findings on task-specific coping models and self-efficacy to observers’ self-evaluations of personal courage. The proposed bridge was that observing difficulty followed by action might influence appraisals of action feasibility, a process theorized to contribute to courageous decisions. However, we did not measure action-feasibility appraisals, self-efficacy, model–observer similarity, whether the robot was perceived as a coping model, or participants’ interpretations of hesitation and risk information. The study therefore could not directly test the pathway proposed in H2 or determine the psychological process underlying the unexpected interaction between preexisting courage tendency group and conflict.
+Fourth, the rationale for H2 extended findings on task-specific coping models and self-efficacy to observers’ self-evaluations of personal courage. The proposed bridge was that observing difficulty followed by action might influence appraisals of action feasibility, a process theorized to contribute to courageous decisions. However, we did not measure action-feasibility appraisals, self-efficacy, model–observer similarity, whether the robot in each Study 2 condition was perceived as courageous or construed as a self-relevant social model, or participants’ interpretations of hesitation and risk information. The study therefore could not establish that social modeling occurred, directly test the pathway proposed in H2, or determine the psychological process underlying the unexpected interaction between preexisting courage tendency group and conflict.
 :::
 ::: {.margin-notes}
-<div class="comment-card primary-b5"><div class="comment-header"><span class="comment-tag b5">B5</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> 課題特異的な自己効力感からpersonal courageへの理論的拡張と、想定した媒介過程を直接測定していないことを正式なLimitationsとして追記した。</p></div>
+<div class="comment-card primary-b6"><div class="comment-header"><span class="comment-tag b6">B6</span> <span class="comment-tag b5">B5</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> self-efficacyからpersonal courageへの理論的拡張に加え、Study 2ではロボットの勇気知覚や自己関連的なsocial modelとしての認知を測定していないため、social modelingが生じたとは結論づけられないことをLimitationsに明記した。</p></div>
 :::
 ::::::
 
-Fourth, in this study, we used only video stimuli involving a robot and did not compare other presentation media, such as a physical robot, human model, avatar, animation, or text presentation. Therefore, it is not possible to determine whether the present results are attributable to the robot as a nonhuman agent, the video format, or the explicit presentation of approach-avoidance conflict through a speech bubble.
+Fifth, in this study, we used only video stimuli involving a robot and did not compare other presentation media, such as a physical robot, human model, avatar, animation, or text presentation. Therefore, it is not possible to determine whether the present results are attributable to the robot as a nonhuman agent, the video format, or the explicit presentation of approach-avoidance conflict through a speech bubble.
 
-Fifth, the stimulus scenario in this study was limited to a robot admonishing a person littering in a park. This scenario has some validity as a stimulus for examining personal courage because valued action and interpersonal risk coexist. However, in this study, we examined a scene in which the robot directly admonished a stranger’s norm violation. Personal courage may include diverse situations, such as speaking up in interpersonal contexts, seeking help, challenging learning tasks, social reintegration, and prosocial behavior (Pury et al., 2007; Vogel et al., 2007; Howard et al., 2017). Therefore, it remains unclear whether the present findings generalize to situations involving different types of risk or action value.
+Sixth, the stimulus scenario in this study was limited to a robot admonishing a person littering in a park. This scenario has some validity as a stimulus for examining personal courage because valued action and interpersonal risk coexist. However, in this study, we examined a scene in which the robot directly admonished a stranger’s norm violation. Personal courage may include diverse situations, such as speaking up in interpersonal contexts, seeking help, challenging learning tasks, social reintegration, and prosocial behavior (Pury et al., 2007; Vogel et al., 2007; Howard et al., 2017). Therefore, it remains unclear whether the present findings generalize to situations involving different types of risk or action value.
 
 ## Future Work
 
@@ -522,14 +610,14 @@ Applied research should examine how the outcomes associated with robot-expressed
 
 ## Conclusion
 
-:::::: {.revision-row .primary-t2}
+:::::: {.revision-row .primary-b6}
 ::: {.manuscript-text}
-<div class="revision-tags"><span class="comment-tag t2">T2</span> <span class="comment-tag b1">B1</span> <span class="comment-tag b3">B3</span></div>
+<div class="revision-tags"><span class="comment-tag b6">B6</span> <span class="comment-tag t2">T2</span> <span class="comment-tag b1">B1</span> <span class="comment-tag b3">B3</span></div>
 
-This study examined how a robot’s representation of pre-action approach-avoidance conflict was related to perceptions of the robot’s courage and observers’ self-evaluations of personal courage. In Study 1, the robot received higher courage ratings when it expressed conflict. In Study 2, the predicted three-way interaction was not supported; however, an unexpected interaction between preexisting courage tendency group and conflict expression was characterized by a marginal trend toward a positive conflict contrast in the low-courage group and a significant negative contrast in the high-courage group. This study positions robots as social models capable of presenting representations of otherwise difficult-to-observe pre-action motives under controlled conditions and suggests that the same expression may not have uniform consequences across users. However, these findings do not demonstrate an effect unique to robots or a change in actual courageous behavior. Future work should compare robots with other presentation media and test the effects of personalized expressions on actual behavior.
+This study examined how a robot’s representation of pre-action approach-avoidance conflict was related to perceptions of the robot’s courage and observers’ self-evaluations of personal courage. In Study 1, the robot received higher courage ratings when it expressed conflict. In Study 2, the predicted three-way interaction was not supported; however, an unexpected interaction between preexisting courage tendency group and conflict expression was characterized by a marginal trend toward a positive conflict contrast in the low-courage group and a significant negative contrast in the high-courage group. This study provides a controlled HRI paradigm for examining whether robots that present representations of otherwise difficult-to-observe pre-action motives can function as social models and suggests that the same expression may be associated with different responses across users. However, these findings do not demonstrate an effect unique to robots or a change in actual courageous behavior. Future work should compare robots with other presentation media and test the effects of personalized expressions on actual behavior.
 :::
 ::: {.margin-notes}
-<div class="comment-card primary-t2"><div class="comment-header"><span class="comment-tag t2">T2</span> <span class="comment-tag b1">B1</span> <span class="comment-tag b3">B3</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> Conclusionを行動前動機の表現という用語に改め、H2不支持と予想外の2要因交互作用を区別した。本研究を統制されたロボット表現設計への貢献として位置づけ、ロボット固有の効果は示していないことも明記した。</p></div>
+<div class="comment-card primary-b6"><div class="comment-header"><span class="comment-tag b6">B6</span> <span class="comment-tag t2">T2</span> <span class="comment-tag b1">B1</span> <span class="comment-tag b3">B3</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> Conclusionではロボットがsocial modelとして機能したと断定せず、その可能性を検討する統制されたHRIパラダイムとして位置づけた。利用者反応も因果ではなく関連の範囲で記述し、H2不支持と副次的結果を区別した。</p></div>
 :::
 ::::::
 
@@ -607,6 +695,17 @@ Leonard, J. A., Lee, Y., and Schulz, L. E. (2017). Infants make more attempts to
 Lewin, K. (1931). “Environmental forces in child behavior and development,” in *A Handbook of Child Psychology*, ed. C. Murchison (Worcester, MA: Clark University Press), 94–127. doi: 10.1037/13524-004
 
 Lucas, T., Alexander, S., Firestone, I. J., and Baltes, B. B. (2006). Self-efficacy and independence from social influence: discovery of an efficacy–difficulty effect. Soc. Influ. 1, 58–80. doi: 10.1080/15534510500291662
+
+:::::: {.revision-row .primary-b8}
+::: {.manuscript-text}
+<div class="revision-tags"><span class="comment-tag b8">B8</span></div>
+
+Maniaci, M. R., and Rogge, R. D. (2014). Caring about carelessness: participant inattention and its effects on research. J. Res. Pers. 48, 61–83. doi: 10.1016/j.jrp.2013.09.008
+:::
+::: {.margin-notes}
+<div class="comment-card primary-b8"><div class="comment-header"><span class="comment-tag b8">B8</span><span class="status incorporated">反映済み</span></div><p><strong>対応：</strong> 指示回答式チェックに用いたDirected Questions Scale形式の原典として、Maniaci and Rogge（2014）を参考文献に追加した。</p></div>
+:::
+::::::
 
 Miller, N. E. (1944). “Experimental studies of conflict,” in *Personality and the Behavior Disorders: A Handbook Based on Experimental and Clinical Research*, vol. 1, ed. J. McV. Hunt (New York, NY: The Ronald Press Company), 431–465.
 

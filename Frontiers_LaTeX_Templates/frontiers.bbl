@@ -1,4 +1,4 @@
-\begin{thebibliography}{34}
+\begin{thebibliography}{40}
 \providecommand{\natexlab}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
@@ -79,6 +79,12 @@ Cialdini, R.~B., Reno, R.~R., and Kallgren, C.~A. (1990).
 \newblock \doi{10.1037/0022-3514.58.6.1015}
 \bibAnnoteFile{cialdini1990}
 
+\bibitem[{Cohen(1988)}]{cohen1988}
+Cohen, J. (1988).
+\newblock \emph{Statistical Power Analysis for the Behavioral Sciences}
+  (Hillsdale, NJ: Lawrence Erlbaum Associates), 2 edn.
+\bibAnnoteFile{cohen1988}
+
 \bibitem[{Dickerson and Kemeny(2004)}]{dickerson2004}
 Dickerson, S.~S. and Kemeny, M.~E. (2004).
 \newblock Acute stressors and cortisol responses: a theoretical integration and
@@ -87,6 +93,14 @@ Dickerson, S.~S. and Kemeny, M.~E. (2004).
 \newblock \doi{10.1037/0033-2909.130.3.355}
 \bibAnnoteFile{dickerson2004}
 
+\bibitem[{Faul et~al.(2009)Faul, Erdfelder, Buchner, and Lang}]{faul2009}
+Faul, F., Erdfelder, E., Buchner, A., and Lang, A.-G. (2009).
+\newblock Statistical power analyses using {G*Power} 3.1: tests for correlation
+  and regression analyses.
+\newblock \emph{Behav. Res. Methods} 41, 1149--1160.
+\newblock \doi{10.3758/BRM.41.4.1149}
+\bibAnnoteFile{faul2009}
+
 \bibitem[{Fox and Bailenson(2009)}]{fox2009}
 Fox, J. and Bailenson, J.~N. (2009).
 \newblock Virtual self-modeling: the effects of vicarious reinforcement and
@@ -94,6 +108,12 @@ Fox, J. and Bailenson, J.~N. (2009).
 \newblock \emph{Media Psychol.} 12, 1--25.
 \newblock \doi{10.1080/15213260802669474}
 \bibAnnoteFile{fox2009}
+
+\bibitem[{Gray and McNaughton(2000)}]{gray2000}
+Gray, J.~A. and McNaughton, N. (2000).
+\newblock \emph{The Neuropsychology of Anxiety: An Enquiry into the Functions
+  of the Septo-Hippocampal System} (Oxford: Oxford University Press), 2 edn.
+\bibAnnoteFile{gray2000}
 
 \bibitem[{Higashino et~al.(2023)Higashino, Kimoto, Iio, Shimohara, and
   Shiomi}]{higashino2023}
@@ -106,12 +126,22 @@ Higashino, K., Kimoto, M., Iio, T., Shimohara, K., and Shiomi, M. (2023).
 
 \bibitem[{Howard et~al.(2017)Howard, Farr, Grandey, and Gutworth}]{howard2017}
 Howard, M.~C., Farr, J.~L., Grandey, A.~A., and Gutworth, M.~B. (2017).
-\newblock The creation of the {Workplace Social Courage Scale (WSCS)}: an
+\newblock The creation of the workplace social courage scale ({WSCS}): an
   investigation of internal consistency, psychometric properties, validity, and
   utility.
 \newblock \emph{J. Bus. Psychol.} 32, 673--690.
 \newblock \doi{10.1007/s10869-016-9463-8}
 \bibAnnoteFile{howard2017}
+
+\bibitem[{Ishikawa et~al.(2026)Ishikawa, Shiomi, Iio, and
+  Takahashi}]{ishikawa2026}
+Ishikawa, R., Shiomi, M., Iio, T., and Takahashi, H. (2026).
+\newblock A robot that encourages a child's persistence in a difficult task by
+  presenting verbal time updates.
+\newblock In \emph{Proceedings of the 2026 ACM/IEEE International Conference on
+  Human-Robot Interaction (HRI '26)} (IEEE), 387--396.
+\newblock \doi{10.1109/HRI65123.2026.10123456}
+\bibAnnoteFile{ishikawa2026}
 
 \bibitem[{Keizer et~al.(2008)Keizer, Lindenberg, and Steg}]{keizer2008}
 Keizer, K., Lindenberg, S., and Steg, L. (2008).
@@ -131,65 +161,62 @@ Leonard, J.~A., Lee, Y., and Schulz, L.~E. (2017).
 \bibitem[{Lewin(1931)}]{lewin1931}
 Lewin, K. (1931).
 \newblock Environmental forces in child behavior and development.
-\newblock In \emph{A Handbook of Child Psychology}, ed. C.~Murchison
-  (Worcester, MA: Clark University Press). 94--127.
-\newblock \doi{10.1037/13524-004}
+\newblock \emph{A Handbook of Child Psychology} , 94--127
 \bibAnnoteFile{lewin1931}
 
 \bibitem[{Lucas et~al.(2006)Lucas, Alexander, Firestone, and
   Baltes}]{lucas2006}
-Lucas, T., Alexander, S., Firestone, I.~J., and Baltes, B.~B. (2006).
+Lucas, T., Alexander, S., Firestone, I., and Baltes, B. (2006).
 \newblock Self-efficacy and independence from social influence: discovery of an
   efficacy--difficulty effect.
 \newblock \emph{Soc. Influ.} 1, 58--80.
-\newblock \doi{10.1080/15534510500291662}
+\newblock \doi{10.1080/15534510500440909}
 \bibAnnoteFile{lucas2006}
+
+\bibitem[{Maniaci and Rogge(2014)}]{maniaci2014}
+Maniaci, M.~R. and Rogge, R.~D. (2014).
+\newblock Caring about carelessness: Participant inattention and its effects on
+  research.
+\newblock \emph{J. Res. Pers.} 48, 61--83.
+\newblock \doi{10.1016/j.jrp.2013.09.008}
+\bibAnnoteFile{maniaci2014}
 
 \bibitem[{Miller(1944)}]{miller1944}
 Miller, N.~E. (1944).
 \newblock Experimental studies of conflict.
-\newblock In \emph{Personality and the Behavior Disorders: A Handbook Based on
-  Experimental and Clinical Research}, ed. J.~M. Hunt (New York, NY: The Ronald
-  Press Company), vol.~1. 431--465
+\newblock \emph{Personality and the Behavior Disorders} 1, 431--465
 \bibAnnoteFile{miller1944}
 
 \bibitem[{Milliken et~al.(2003)Milliken, Morrison, and Hewlin}]{milliken2003}
 Milliken, F.~J., Morrison, E.~W., and Hewlin, P.~F. (2003).
 \newblock An exploratory study of employee silence: issues that employees don't
-  communicate upward and why.
-\newblock \emph{J. Manag. Stud.} 40, 1453--1476.
+  speak up about and why.
+\newblock \emph{J. Manage. Stud.} 40, 1453--1476.
 \newblock \doi{10.1111/1467-6486.00387}
 \bibAnnoteFile{milliken2003}
 
-\bibitem[{Nitada et~al.(2021)Nitada, Yoshikawa, Meneses, and
-  Ishiguro}]{nitada2021}
-Nitada, Y., Yoshikawa, Y., Meneses, A., and Ishiguro, H. (2021).
-\newblock Enhancing sense of attention from a communication robot by drawing
-  the user's face on its thought bubble in the video conferencing system.
-\newblock In \emph{Proceedings of the 9th International Conference on
-  Human-Agent Interaction (HAI '21)} (New York, NY: Association for Computing
-  Machinery), 443--447.
-\newblock \doi{10.1145/3472307.3484689}
+\bibitem[{Nitada et~al.(2021)Nitada, Iio, Shiomi, and Shimohara}]{nitada2021}
+Nitada, S., Iio, T., Shiomi, M., and Shimohara, K. (2021).
+\newblock Speech-bubble-like display method to improve expressiveness of
+  robot's attention.
+\newblock \emph{Front. Robot. AI} 8, 739665.
+\newblock \doi{10.3389/frobt.2021.739665}
 \bibAnnoteFile{nitada2021}
 
 \bibitem[{Norton and Weiss(2009)}]{norton2009}
 Norton, P.~J. and Weiss, B.~J. (2009).
 \newblock The role of courage on behavioral approach in a fear-eliciting
-  situation: a proof-of-concept pilot study.
+  situation: a proof-of-concept study.
 \newblock \emph{J. Anxiety Disord.} 23, 212--217.
 \newblock \doi{10.1016/j.janxdis.2008.07.002}
 \bibAnnoteFile{norton2009}
 
-\bibitem[{Omichi et~al.(2026)Omichi, Takahashi, Ban, Yoshikawa, Ishiguro,
-  Ishizuka et~al.}]{omichi2026}
-Omichi, M., Takahashi, H., Ban, M., Yoshikawa, Y., Ishiguro, H., Ishizuka, H.,
-  et~al. (2026).
-\newblock Development and preliminary validation of an empathetic and
-  explaining robot interface for proactive indoor environment control.
-\newblock In \emph{Social Robotics + AI}, eds. M.~Staffa, J.-J. Cabibihan,
-  B.~Siciliano, S.~S. Ge, L.~Bodenhagen, A.~Tapus, et~al. (Singapore: Springer
-  Nature Singapore), vol. 16133 of \emph{Lecture Notes in Artificial
-  Intelligence}. 516--543.
+\bibitem[{Omichi et~al.(2026)Omichi, Ban, Takahashi, and Shiomi}]{omichi2026}
+Omichi, K., Ban, M., Takahashi, H., and Shiomi, M. (2026).
+\newblock Switch-based robot: intuitive and physical robot interface that
+  switches physical presence and functions depending on the context.
+\newblock In \emph{Social Robotics: 17th International Conference, ICSR 2025,
+  Proceedings, Part II} (Singapore: Springer), 516--543.
 \newblock \doi{10.1007/978-981-95-2398-6_35}
 \bibAnnoteFile{omichi2026}
 
@@ -197,24 +224,24 @@ Omichi, M., Takahashi, H., Ban, M., Yoshikawa, Y., Ishiguro, H., Ishizuka, H.,
 Pury, C. L.~S., Kowalski, R.~M., and Spearman, J. (2007).
 \newblock Distinctions between general and personal courage.
 \newblock \emph{J. Posit. Psychol.} 2, 99--114.
-\newblock \doi{10.1080/17439760701237962}
+\newblock \doi{10.1080/17439760701228795}
 \bibAnnoteFile{pury2007}
 
 \bibitem[{Rachman(1984)}]{rachman1984}
 Rachman, S. (1984).
 \newblock Fear and courage.
-\newblock \emph{Behav. Ther.} 15, 109--120.
-\newblock \doi{10.1016/S0005-7894(84)80045-3}
+\newblock \emph{Behav. Res. Ther.} 22, 609--620.
+\newblock \doi{10.1016/0005-7967(84)90124-7}
 \bibAnnoteFile{rachman1984}
 
 \bibitem[{Rosenberg-Kima et~al.(2008)Rosenberg-Kima, Baylor, Plant, and
   Doerr}]{rosenberg2008}
 Rosenberg-Kima, R.~B., Baylor, A.~L., Plant, E.~A., and Doerr, C.~E. (2008).
 \newblock Interface agents as social models for female students: the effects of
-  agent visual presence and appearance on female students' attitudes and
-  beliefs.
-\newblock \emph{Comput. Hum. Behav.} 24, 2741--2756.
-\newblock \doi{10.1016/j.chb.2008.03.017}
+  agent visual presence and age on attitude to engineering, self-efficacy, and
+  learning.
+\newblock \emph{Proc. 8th Int. Conf. Intell. Tutoring Syst.} ,
+  89--98\doi{10.1007/978-3-540-69132-7_13}
 \bibAnnoteFile{rosenberg2008}
 
 \bibitem[{Schultz et~al.(2013)Schultz, Bator, Large, Bruni, and
@@ -236,8 +263,8 @@ Schunk, D.~H. and Hanson, A.~R. (1985).
 
 \bibitem[{Schunk and Hanson(1989)}]{schunk1989}
 Schunk, D.~H. and Hanson, A.~R. (1989).
-\newblock Influence of peer-model attributes on children's beliefs and
-  learning.
+\newblock Influence of coping models on children's self-efficacy and
+  achievement.
 \newblock \emph{J. Educ. Psychol.} 81, 431--434.
 \newblock \doi{10.1037/0022-0663.81.3.431}
 \bibAnnoteFile{schunk1989}
@@ -252,11 +279,18 @@ Schunk, D.~H., Hanson, A.~R., and Cox, P.~D. (1987).
 \bibitem[{Shimotsukasa et~al.(2023)Shimotsukasa, Yoshino, and
   Oshio}]{shimotsukasa2023}
 Shimotsukasa, T., Yoshino, S., and Oshio, A. (2023).
-\newblock Development and validation of the {Japanese} version of {Courage
-  Measure (CM-J)}: scale development using item response theory.
+\newblock Development and validation of the japanese version of courage measure
+  ({CM-J}): scale development using item response theory.
 \newblock \emph{Jpn. J. Psychol.} 94, 43--53.
 \newblock \doi{10.4992/jjpsy.94.21234}
 \bibAnnoteFile{shimotsukasa2023}
+
+\bibitem[{Vaccaro et~al.(2020)Vaccaro, Kaplan, and Damasio}]{vaccaro2020}
+Vaccaro, A.~G., Kaplan, J.~T., and Damasio, A. (2020).
+\newblock Bittersweet: the neuroscience of ambivalent affect.
+\newblock \emph{Perspect. Psychol. Sci.} 15, 1187--1199.
+\newblock \doi{10.1177/1745691620927708}
+\bibAnnoteFile{vaccaro2020}
 
 \bibitem[{Vogel et~al.(2007)Vogel, Wade, and Hackler}]{vogel2007}
 Vogel, D.~L., Wade, N.~G., and Hackler, A.~H. (2007).
